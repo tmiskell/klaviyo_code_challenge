@@ -1,0 +1,276 @@
+us_city,us_state,population,density 
+New York,New York,8175133,26821.3
+Los Angeles,California,3792621,8092.3
+Chicago,Illinois,2695598,11841.8
+Houston,Texas,2099451,3501.5
+Philadelphia,Pennsylvania,1526006,11379.5
+Phoenix,Arizona,1445632,2797.8
+San Antonio,Texas,1327407,2879.8
+San Diego,California,1307402,4020.4
+Dallas,Texas,1197816,3517.6
+San Jose,California,945942,5358.6
+Jacksonville,Florida,821784,1100.1
+Indianapolis,Indiana,820445,2270
+San Francisco,California,805235,17179.2
+Austin,Texas,790390,2653.2
+Columbus,Ohio,787033,3624.1
+Fort Worth,Texas,741206,2181.2
+Charlotte,North Carolina,731424,2457.1
+Detroit,Michigan,713777,5144.3
+El Paso,Texas,649121,2543.2
+Memphis,Tennessee,646889,2053.3
+Baltimore,Maryland,620961,7671.5
+Boston,Massachusetts,617594,12792.7
+Seattle,Washington,608660,7250.9
+Washington,District of Columbia,601723,9856.5
+Nashville,Tennessee,601222,1265.4
+Denver,Colorado,600158,3922.6
+Louisville,Kentucky,597337,1836.6
+Milwaukee,Wisconsin,594833,6184.7
+Portland,Oregon,583776,4375.3
+Las Vegas,Nevada,583756,4298.2
+Oklahoma City,Oklahoma,579999,956.4
+Albuquerque,New Mexico,545852,2907.6
+Tucson,Arizona,520116,2294.2
+Fresno,California,494665,4418.4
+Sacramento,California,466488,4764.2
+Long Beach,California,462257,9191.2
+Kansas City,Missouri,459787,1459.9
+Mesa,Arizona,439041,3217.5
+Virginia Beach [e],Virginia,437994,1758.9
+Atlanta,Georgia,420003,3154.3
+Colorado Springs,Colorado,416427,2140.6
+Omaha,Nebraska,408958,3217.9
+Raleigh,North Carolina,403892,2826.3
+Miami,Florida,399457,11135.9
+Cleveland,Ohio,396815,5107.2
+Tulsa,Oklahoma,391906,1991.9
+Oakland,California,390724,7004
+Minneapolis,Minnesota,382578,7088.3
+Wichita,Kansas,382368,2400.4
+Arlington,Texas,365438,3811.3
+Bakersfield,California,347483,2444.2
+New Orleans,Louisiana,343829,2029.4
+Honolulu [b],Hawaii,337256,5572.6
+Anaheim,California,336265,6747.5
+Tampa,Florida,335709,2960.2
+Aurora,Colorado,325078,2100.9
+Santa Ana,California,324528,11900.8
+St. Louis [d],Missouri,319294,5157.5
+Pittsburgh,Pennsylvania,305704,5521.4
+Corpus Christi,Texas,305215,1900.3
+Riverside,California,303871,3745
+Cincinnati,Ohio,296943,3809.8
+Lexington,Kentucky,295803,1042.8
+Anchorage,Alaska,291826,171.2
+Stockton,California,291707,4730.2
+Toledo,Ohio,287208,3559.3
+St. Paul,Minnesota,285068,5484.3
+Newark,New Jersey,277140,11458.3
+Greensboro,North Carolina,269666,2131.5
+Buffalo,New York,261310,6470.6
+Plano,Texas,259841,3630
+Lincoln,Nebraska,258379,2899.4
+Henderson,Nevada,257729,2392.3
+Fort Wayne,Indiana,253691,2293.4
+Jersey City,New Jersey,247597,16736.6
+St. Petersburg,Florida,244769,3964.4
+Chula Vista,California,243916,4914.6
+Norfolk [e],Virginia,242803,4486.3
+Orlando,Florida,238300,2327.3
+Chandler,Arizona,236123,3665.8
+Laredo,Texas,236091,2655.4
+Madison,Wisconsin,233209,3037
+Winston-Salem,North Carolina,229617,1733.6
+Lubbock,Texas,229573,1875.4
+Baton Rouge,Louisiana,229493,2982.5
+Durham,North Carolina,228330,2126.6
+Garland,Texas,226876,3974.4
+Glendale,Arizona,226721,3780.2
+Reno,Nevada,225221,2186.4
+Hialeah,Florida,224669,10474.2
+Chesapeake [e],Virginia,222209,652
+Scottsdale,Arizona,217385,1182
+North Las Vegas,Nevada,216961,2140.8
+Irving,Texas,216290,3227.4
+Fremont,California,214089,2763.9
+Irvine,California,212375,3212.6
+Birmingham,Alabama,212237,1453
+Rochester,New York,210565,5884.9
+San Bernardino,California,209924,3546
+Spokane,Washington,208916,3526.2
+Gilbert,Arizona,208453,3067.2
+Arlington [c],Virginia,207627,7993.5
+Montgomery,Alabama,205764,1289.5
+Boise,Idaho,205671,2591.5
+Richmond [e],Virginia,204214,3414.7
+Des Moines,Iowa,203433,2515.6
+Modesto,California,201165,5456.5
+Fayetteville,North Carolina,200654,1375.2
+Shreveport,Louisiana,199311,1891.4
+Akron,Ohio,199110,3209.8
+Tacoma,Washington,198397,3990.2
+Aurora,Illinois,197899,4404
+Oxnard,California,197899,7358.4
+Fontana,California,196069,4620.8
+Yonkers,New York,195976,10880.3
+Augusta,Georgia,195844,647.5
+Mobile,Alabama,195111,1402.6
+Little Rock,Arkansas,193524,1623.5
+Moreno Valley,California,193365,3771.2
+Glendale,California,191719,6295.5
+Amarillo,Texas,190695,1917
+Huntington Beach,California,189992,7102.9
+Columbus,Georgia,189885,877.5
+Grand Rapids,Michigan,188040,4235.6
+Salt Lake City,Utah,186440,1678
+Tallahassee,Florida,181376,1809.3
+Worcester,Massachusetts,181045,4844.5
+Newport News [e],Virginia,180719,2630
+Huntsville,Alabama,180105,861.5
+Knoxville,Tennessee,178874,1815.6
+Providence,Rhode Island,178042,9676.1
+Santa Clarita,California,176320,3344.7
+Grand Prairie,Texas,175396,2432.5
+Brownsville,Texas,175023,1322.6
+Jackson,Mississippi,173514,1562.5
+Overland Park,Kansas,173372,2316.5
+Garden Grove,California,170883,9524.6
+Santa Rosa,California,167815,4063.9
+Chattanooga,Tennessee,167674,1222.5
+Oceanside,California,167086,4052.1
+Fort Lauderdale,Florida,165521,4761.1
+Rancho Cucamonga,California,165269,4147.2
+Port St. Lucie,Florida,164603,1444.5
+Ontario,California,163924,3282.4
+Vancouver,Washington,161791,3482.6
+Tempe,Arizona,161719,4050.1
+Springfield,Missouri,159498,1951.8
+Lancaster,California,156633,1661.3
+Eugene,Oregon,156185,3572.2
+Pembroke Pines,Florida,154750,4671.1
+Salem,Oregon,154637,3228.6
+Cape Coral,Florida,154305,1460.2
+Peoria,Arizona,154065,883.4
+Sioux Falls,South Dakota,153888,2109.1
+Springfield,Massachusetts,153060,4803.4
+Elk Grove,California,153015,3626.8
+Rockford,Illinois,152871,2502.7
+Palmdale,California,152750,1441.6
+Corona,California,152374,3924.6
+Salinas,California,150441,6490.5
+Pomona,California,149058,6494.5
+Pasadena,Texas,149043,3485.4
+Joliet,Illinois,147433,2373.6
+Paterson,New Jersey,146199,17346.3
+Kansas City,Kansas,145786,1168.1
+Torrance,California,145438,7102.2
+Syracuse,New York,145170,5796.7
+Bridgeport,Connecticut,144229,9029
+Hayward,California,144186,3181.3
+Fort Collins,Colorado,143986,2652.8
+Escondido,California,143911,3909.3
+Lakewood,Colorado,142980,3334.4
+Naperville,Illinois,141853,3658.9
+Dayton,Ohio,141527,2543.1
+Hollywood,Florida,140768,5143.8
+Sunnyvale,California,140081,6370.9
+Alexandria [f],Virginia,139966,9314.3
+Mesquite,Texas,139824,3038.3
+Hampton [f],Virginia,137436,2673.2
+Pasadena,California,137122,5969.6
+Orange,California,136416,5501.3
+Savannah,Georgia,136286,1321.2
+Cary,North Carolina,135234,2488.4
+Fullerton,California,135161,6046.7
+Warren,Michigan,134056,3899.2
+Clarksville,Tennessee,132929,1361.9
+McKinney,Texas,131117,2107.7
+McAllen,Texas,129877,2686.5
+New Haven,Connecticut,129779,6948
+Sterling Heights,Michigan,129699,3552.9
+West Valley City,Utah,129480,3641.5
+Columbia,South Carolina,129272,977.8
+Killeen,Texas,127921,2387.5
+Topeka,Kansas,127473,2118.6
+Thousand Oaks,California,126683,2302
+Cedar Rapids,Iowa,126326,1784.3
+Olathe,Kansas,125872,2109.8
+Elizabeth,New Jersey,124969,10144.1
+Waco,Texas,124805,1402.9
+Hartford,Connecticut,124775,7178.9
+Visalia,California,124442,3433.3
+Gainesville,Florida,124354,2028.5
+Simi Valley,California,124237,2995.1
+Stamford,Connecticut,122643,3258.4
+Bellevue,Washington,122363,3827.7
+Concord,California,122067,3996.2
+Miramar,Florida,122041,4134.1
+Coral Springs,Florida,121096,5089.8
+Lafayette,Louisiana,120623,2450.1
+Charleston,South Carolina,120083,1101.9
+Carrollton,Texas,119097,3281.3
+Roseville,California,118788,3279.5
+Thornton,Colorado,118772,3408.8
+Beaumont,Texas,118296,1428.7
+Allentown,Pennsylvania,118032,6727.1
+Surprise,Arizona,117517,1111.3
+Evansville,Indiana,117429,2659.6
+Abilene,Texas,117063,1096.2
+Frisco,Texas,116989,1892.9
+Independence,Missouri,116830,1506.2
+Santa Clara,California,116468,6327.3
+Springfield,Illinois,116250,1954.5
+Vallejo,California,115942,3780.1
+Victorville,California,115903,1583.9
+Athens,Georgia,115452,992.2
+Peoria,Illinois,115007,2395.6
+Ann Arbor,Michigan,113934,4094
+El Monte,California,113475,11866.9
+Denton,Texas,113383,1289.2
+Berkeley,California,112580,10752.4
+Provo,Utah,112488,2699.3
+Downey,California,111772,9008
+Midland,Texas,111147,1542.2
+Norman,Oklahoma,110925,620.5
+Waterbury,Connecticut,110366,3869.9
+Costa Mesa,California,109960,7024.6
+Inglewood,California,109673,12094.7
+Manchester,New Hampshire,109565,3310.1
+Lansing,Michigan,109563,3303.2
+Murfreesboro,Tennessee,108755,1965
+Columbia,Missouri,108500,1720.1
+Elgin,Illinois,108188,2911.1
+Clearwater,Florida,107685,4212.8
+Miami Gardens,Florida,107167,5878.4
+Rochester,Minnesota,106769,1956
+Pueblo,Colorado,106595,1987.2
+Lowell,Massachusetts,106519,7842.1
+Wilmington,North Carolina,106476,2067.8
+Arvada,Colorado,106433,3028.6
+Ventura,California,106433,4915
+Westminster,Colorado,106114,3363.3
+West Covina,California,106098,6614.3
+Gresham,Oregon,105594,4551.3
+Fargo,North Dakota,105549,2162
+Norwalk,California,105549,10873.5
+Carlsbad,California,105328,2792.2
+Fairfield,California,105321,2816.8
+Cambridge,Massachusetts,105162,16469.1
+Wichita Falls,Texas,104553,1449.3
+High Point,North Carolina,104371,1939.9
+Billings,Montana,104170,2399.5
+Green Bay,Wisconsin,104057,2288.6
+West Jordan,Utah,103712,3195.4
+Richmond,California,103701,3448.9
+Murrieta,California,103466,3081.4
+Burbank,California,103340,5959.3
+Palm Bay,Florida,103190,1570.6
+Everett,Washington,103019,3080
+Flint,Michigan,102434,3065.4
+Antioch,California,102372,3611.2
+Erie,Pennsylvania,101786,5334.5
+South Bend,Indiana,101168,2440.3
+Daly City,California,101123,13195
+Centennial,Colorado,100377,3494.8
+Temecula,California,100097,3319.8

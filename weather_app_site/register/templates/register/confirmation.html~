@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Weather Powered Email</title>
+ </head>
+ <body>
+  {% if error_message %}
+   
+  {% else %}
+  {% endif %}
+ </body>
+</html>
