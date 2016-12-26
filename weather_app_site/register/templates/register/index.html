@@ -16,13 +16,13 @@
      <br />
      <input type="text" name="email_address" value="test@sample.com" />
      <br />
-    <select>
-     Location
-     <br />
-     {% for next_city in top_pop_cities %}
-      <option value="{{ next_city.id }}">{{ next_city }}</option>
-     {% endfor %}
-    </select>
+     <select name="next_city_pk">
+      Location
+      <br />
+      {% for next_city in top_pop_cities %}
+       <option value="{{ next_city.id }}">{{ next_city }}</option>
+      {% endfor %}
+     </select>
      <input type="submit" value="Submit" />
     </form>
    </div>
