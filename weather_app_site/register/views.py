@@ -1,48 +1,52 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from .models import Address, Location
-from .global_vars import NUM_CITIES, TITLE
+from django.http import HttpResponse, HttpResponseRedirect
 from django.utils import timezone
 from django.core.exceptions import ValidationError
+from .models import Address, Location
+from .global_vars import NUM_CITIES, TITLE
+from .forms import RegisterForm
 
 # Create your views here.
 def index( request ):
-    # Pull the top NUM_CITIES cities by population.    
-    top_pop_cities = Location.objects.order_by('-population')[:NUM_CITIES]
     template = 'register/index.html'
+    redirect = "confirmation/" 
+    error_msg = ""
+    if request.method == "POST":
+        # Validate the contents of the form and update the database.
+        form = RegisterForm( request.POST )
+        if form.is_valid():
+            email_address = form.cleaned_data['email_address']
+            location_id = form.cleaned_data['location_id']
+            try:
+                fk = Location.objects.all().filter( pk=location_id )
+                if len(fk) != 1:
+                    # Primary key should be unique.
+                    raise ValidationError( "Invalid primary key supplied" )
+                a = Address( location=fk[0], email_address=email_address, creation_date=timezone.now() )
+                # Validate e-mail once more before saving.
+                a.full_clean()
+                a.save()
+                # Successfully entered e-mail address. Redirect to confirmation page.
+                return HttpResponseRedirect( redirect )
+            except ValidationError, exc:
+                # Email was invalid or not unique. Capture the error message.
+                error_msg = "%s" % exc
+        else:
+             error_msg = "Invalid form"
+    else:
+        # Create an empty form
+        form = RegisterForm( )
     context = { 'title': TITLE,
-                'top_pop_cities' : top_pop_cities
+                'form': form,
+                'error_msg': error_msg
               }
     return render( request, template, context )
 
 def confirmation( request ):
     template = 'register/confirmation.html'
     result = "Successfully registered e-mail address"
-    try:
-        try:
-            pk = int( request.POST.get('next_city_pk', None) )
-        except TypeError:
-            raise ValidationError( "Invalid primary key supplied" )
-        fk = Location.objects.all().filter( pk=pk )
-        if len(fk) != 1:
-            # Primary key supplied should be valid, and should be a unique ID.
-            raise ValidationError("Server side error")
-        email_address = request.POST.get( 'email_address', '')
-        a = Address( location=fk[0], email_address=email_address, creation_date=timezone.now() )
-        # Validate e-mail before saving.
-        a.full_clean()
-        a.save()
-    except ValidationError, exc:
-        # Email was invalid or not unique. Capture the error message.
-        if isinstance( exc, dict ):
-            result = ""
-            for key, value in exc.items():
-                result += value + " "
-            result = result.rstrip()
-        else:
-            result = "%s" % exc
     context = { 'title': TITLE,
                 'result': result,
-                'email_address': email_address
+#                'email_address': email_address
               }
     return render( request, template, context )

@@ -23,37 +23,13 @@
 """
 import os
 import sys
-
-class Email( object ):
-    def __init__( self, address, subject, body ):
-        self._address = address
-        self._subject = subject
-        self._body = body
-    def address( ):
-        return self._address
-    def subject( ):
-        return self._subject
-    def body( ):
-        return self._body
-
-def retrieve_list( ):
-    recipient_list = []
-    return recipient_list
-
-def retrieve_weather( recipient_location ):
-    current_weather = ""
-    return current_weather
-
-def change_subject( current_weather ):
-    new_subject = "Enjoy a discount on us."
-    return new_subject
-
-def create_email_body( recipient_location, current_weather, weather_image ):
-    email_body = ""
-    return email_body
-
-def send_email( next_email ):
-    return
+from .global_vars import WEATHER_API_KEY, WEATHER_BASE_URL
+from .classes import Email
+from .retrieve_list import retrieve_list
+from .retrieve_weather import retrieve_weather
+from .change_subject import change_subject
+from .create_email_body import create_email_body
+from .send_email import send_email
 
 def main( argv ):
     status_code = os.EX_OK

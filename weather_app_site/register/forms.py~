@@ -1,0 +1,11 @@
+from django import forms
+from .models import Location
+from .global_vars import NUM_CITIES
+
+class RegisterForm( forms.Form ):
+    email_address = forms.EmailField( )
+    top_pop_cities = Location.objects.order_by('-population')[:NUM_CITIES]
+    choices = []
+    for next_city in top_pop_cities:
+        choices.append( (next_city.id, str(next_city)) )
+    location = forms.ChoiceField( choices=choices )
