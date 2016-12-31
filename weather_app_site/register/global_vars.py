@@ -4,3 +4,4 @@ US_CITY_STATE_MAX_LEN = US_CITY_MAX_LEN + len(", ") + US_STATE_MAX_LEN
 EMAIL_MAX_LEN = 254
 NUM_CITIES = 100
 TITLE = "Weather Powered E-mail"
+DEFAULT_OPTION = "Where do you live?"

@@ -2,1649 +2,1649 @@
   pk: 1
   fields:
     us_city: New York
-    us_state: New York
+    us_state: NY
     population: 8175133
 - model: register.location
   pk: 2
   fields:
     us_city: Los Angeles
-    us_state: California
+    us_state: CA
     population: 3792621
 - model: register.location
   pk: 3
   fields:
     us_city: Chicago
-    us_state: Illinois
+    us_state: IL
     population: 2695598
 - model: register.location
   pk: 4
   fields:
     us_city: Houston
-    us_state: Texas
+    us_state: TX
     population: 2099451
 - model: register.location
   pk: 5
   fields:
     us_city: Philadelphia
-    us_state: Pennsylvania
+    us_state: PA
     population: 1526006
 - model: register.location
   pk: 6
   fields:
     us_city: Phoenix
-    us_state: Arizona
+    us_state: AZ
     population: 1445632
 - model: register.location
   pk: 7
   fields:
     us_city: San Antonio
-    us_state: Texas
+    us_state: TX
     population: 1327407
 - model: register.location
   pk: 8
   fields:
     us_city: San Diego
-    us_state: California
+    us_state: CA
     population: 1307402
 - model: register.location
   pk: 9
   fields:
     us_city: Dallas
-    us_state: Texas
+    us_state: TX
     population: 1197816
 - model: register.location
   pk: 10
   fields:
     us_city: San Jose
-    us_state: California
+    us_state: CA
     population: 945942
 - model: register.location
   pk: 11
   fields:
     us_city: Jacksonville
-    us_state: Florida
+    us_state: FL
     population: 821784
 - model: register.location
   pk: 12
   fields:
     us_city: Indianapolis
-    us_state: Indiana
+    us_state: IN
     population: 820445
 - model: register.location
   pk: 13
   fields:
     us_city: San Francisco
-    us_state: California
+    us_state: CA
     population: 805235
 - model: register.location
   pk: 14
   fields:
     us_city: Austin
-    us_state: Texas
+    us_state: TX
     population: 790390
 - model: register.location
   pk: 15
   fields:
     us_city: Columbus
-    us_state: Ohio
+    us_state: OH
     population: 787033
 - model: register.location
   pk: 16
   fields:
     us_city: Fort Worth
-    us_state: Texas
+    us_state: TX
     population: 741206
 - model: register.location
   pk: 17
   fields:
     us_city: Charlotte
-    us_state: North Carolina
+    us_state: NC
     population: 731424
 - model: register.location
   pk: 18
   fields:
     us_city: Detroit
-    us_state: Michigan
+    us_state: MI
     population: 713777
 - model: register.location
   pk: 19
   fields:
     us_city: El Paso
-    us_state: Texas
+    us_state: TX
     population: 649121
 - model: register.location
   pk: 20
   fields:
     us_city: Memphis
-    us_state: Tennessee
+    us_state: TN
     population: 646889
 - model: register.location
   pk: 21
   fields:
     us_city: Baltimore
-    us_state: Maryland
+    us_state: MD
     population: 620961
 - model: register.location
   pk: 22
   fields:
     us_city: Boston
-    us_state: Massachusetts
+    us_state: MA
     population: 617594
 - model: register.location
   pk: 23
   fields:
     us_city: Seattle
-    us_state: Washington
+    us_state: WA
     population: 608660
 - model: register.location
   pk: 24
   fields:
     us_city: Washington
-    us_state: District of Columbia
+    us_state: DC
     population: 601723
 - model: register.location
   pk: 25
   fields:
     us_city: Nashville
-    us_state: Tennessee
+    us_state: TN
     population: 601222
 - model: register.location
   pk: 26
   fields:
     us_city: Denver
-    us_state: Colorado
+    us_state: CO
     population: 600158
 - model: register.location
   pk: 27
   fields:
     us_city: Louisville
-    us_state: Kentucky
+    us_state: KY
     population: 597337
 - model: register.location
   pk: 28
   fields:
     us_city: Milwaukee
-    us_state: Wisconsin
+    us_state: WI
     population: 594833
 - model: register.location
   pk: 29
   fields:
     us_city: Portland
-    us_state: Oregon
+    us_state: OR
     population: 583776
 - model: register.location
   pk: 30
   fields:
     us_city: Las Vegas
-    us_state: Nevada
+    us_state: NV
     population: 583756
 - model: register.location
   pk: 31
   fields:
     us_city: Oklahoma City
-    us_state: Oklahoma
+    us_state: OK
     population: 579999
 - model: register.location
   pk: 32
   fields:
     us_city: Albuquerque
-    us_state: New Mexico
+    us_state: NM
     population: 545852
 - model: register.location
   pk: 33
   fields:
     us_city: Tucson
-    us_state: Arizona
+    us_state: AZ
     population: 520116
 - model: register.location
   pk: 34
   fields:
     us_city: Fresno
-    us_state: California
+    us_state: CA
     population: 494665
 - model: register.location
   pk: 35
   fields:
     us_city: Sacramento
-    us_state: California
+    us_state: CA
     population: 466488
 - model: register.location
   pk: 36
   fields:
     us_city: Long Beach
-    us_state: California
+    us_state: CA
     population: 462257
 - model: register.location
   pk: 37
   fields:
     us_city: Kansas City
-    us_state: Missouri
+    us_state: MO
     population: 459787
 - model: register.location
   pk: 38
   fields:
     us_city: Mesa
-    us_state: Arizona
+    us_state: AZ
     population: 439041
 - model: register.location
   pk: 39
   fields:
-    us_city: Virginia Beach [e]
-    us_state: Virginia
+    us_city: Virginia Beach
+    us_state: VA
     population: 437994
 - model: register.location
   pk: 40
   fields:
     us_city: Atlanta
-    us_state: Georgia
+    us_state: GA
     population: 420003
 - model: register.location
   pk: 41
   fields:
     us_city: Colorado Springs
-    us_state: Colorado
+    us_state: CO
     population: 416427
 - model: register.location
   pk: 42
   fields:
     us_city: Omaha
-    us_state: Nebraska
+    us_state: NE
     population: 408958
 - model: register.location
   pk: 43
   fields:
     us_city: Raleigh
-    us_state: North Carolina
+    us_state: NC
     population: 403892
 - model: register.location
   pk: 44
   fields:
     us_city: Miami
-    us_state: Florida
+    us_state: FL
     population: 399457
 - model: register.location
   pk: 45
   fields:
     us_city: Cleveland
-    us_state: Ohio
+    us_state: OH
     population: 396815
 - model: register.location
   pk: 46
   fields:
     us_city: Tulsa
-    us_state: Oklahoma
+    us_state: OK
     population: 391906
 - model: register.location
   pk: 47
   fields:
     us_city: Oakland
-    us_state: California
+    us_state: CA
     population: 390724
 - model: register.location
   pk: 48
   fields:
     us_city: Minneapolis
-    us_state: Minnesota
+    us_state: MN
     population: 382578
 - model: register.location
   pk: 49
   fields:
     us_city: Wichita
-    us_state: Kansas
+    us_state: KS
     population: 382368
 - model: register.location
   pk: 50
   fields:
     us_city: Arlington
-    us_state: Texas
+    us_state: TX
     population: 365438
 - model: register.location
   pk: 51
   fields:
     us_city: Bakersfield
-    us_state: California
+    us_state: CA
     population: 347483
 - model: register.location
   pk: 52
   fields:
     us_city: New Orleans
-    us_state: Louisiana
+    us_state: LA
     population: 343829
 - model: register.location
   pk: 53
   fields:
-    us_city: Honolulu [b]
-    us_state: Hawaii
+    us_city: Honolulu
+    us_state: HI
     population: 337256
 - model: register.location
   pk: 54
   fields:
     us_city: Anaheim
-    us_state: California
+    us_state: CA
     population: 336265
 - model: register.location
   pk: 55
   fields:
     us_city: Tampa
-    us_state: Florida
+    us_state: FL
     population: 335709
 - model: register.location
   pk: 56
   fields:
     us_city: Aurora
-    us_state: Colorado
+    us_state: CO
     population: 325078
 - model: register.location
   pk: 57
   fields:
     us_city: Santa Ana
-    us_state: California
+    us_state: CA
     population: 324528
 - model: register.location
   pk: 58
   fields:
-    us_city: St. Louis [d]
-    us_state: Missouri
+    us_city: St. Louis
+    us_state: MO
     population: 319294
 - model: register.location
   pk: 59
   fields:
     us_city: Pittsburgh
-    us_state: Pennsylvania
+    us_state: PA
     population: 305704
 - model: register.location
   pk: 60
   fields:
     us_city: Corpus Christi
-    us_state: Texas
+    us_state: TX
     population: 305215
 - model: register.location
   pk: 61
   fields:
     us_city: Riverside
-    us_state: California
+    us_state: CA
     population: 303871
 - model: register.location
   pk: 62
   fields:
     us_city: Cincinnati
-    us_state: Ohio
+    us_state: OH
     population: 296943
 - model: register.location
   pk: 63
   fields:
     us_city: Lexington
-    us_state: Kentucky
+    us_state: KY
     population: 295803
 - model: register.location
   pk: 64
   fields:
     us_city: Anchorage
-    us_state: Alaska
+    us_state: AK
     population: 291826
 - model: register.location
   pk: 65
   fields:
     us_city: Stockton
-    us_state: California
+    us_state: CA
     population: 291707
 - model: register.location
   pk: 66
   fields:
     us_city: Toledo
-    us_state: Ohio
+    us_state: OH
     population: 287208
 - model: register.location
   pk: 67
   fields:
     us_city: St. Paul
-    us_state: Minnesota
+    us_state: MN
     population: 285068
 - model: register.location
   pk: 68
   fields:
     us_city: Newark
-    us_state: New Jersey
+    us_state: NJ
     population: 277140
 - model: register.location
   pk: 69
   fields:
     us_city: Greensboro
-    us_state: North Carolina
+    us_state: NC
     population: 269666
 - model: register.location
   pk: 70
   fields:
     us_city: Buffalo
-    us_state: New York
+    us_state: NY
     population: 261310
 - model: register.location
   pk: 71
   fields:
     us_city: Plano
-    us_state: Texas
+    us_state: TX
     population: 259841
 - model: register.location
   pk: 72
   fields:
     us_city: Lincoln
-    us_state: Nebraska
+    us_state: NE
     population: 258379
 - model: register.location
   pk: 73
   fields:
     us_city: Henderson
-    us_state: Nevada
+    us_state: NV
     population: 257729
 - model: register.location
   pk: 74
   fields:
     us_city: Fort Wayne
-    us_state: Indiana
+    us_state: IN
     population: 253691
 - model: register.location
   pk: 75
   fields:
     us_city: Jersey City
-    us_state: New Jersey
+    us_state: NJ
     population: 247597
 - model: register.location
   pk: 76
   fields:
     us_city: St. Petersburg
-    us_state: Florida
+    us_state: FL
     population: 244769
 - model: register.location
   pk: 77
   fields:
     us_city: Chula Vista
-    us_state: California
+    us_state: CA
     population: 243916
 - model: register.location
   pk: 78
   fields:
-    us_city: Norfolk [e]
-    us_state: Virginia
+    us_city: Norfolk
+    us_state: VA
     population: 242803
 - model: register.location
   pk: 79
   fields:
     us_city: Orlando
-    us_state: Florida
+    us_state: FL
     population: 238300
 - model: register.location
   pk: 80
   fields:
     us_city: Chandler
-    us_state: Arizona
+    us_state: AZ
     population: 236123
 - model: register.location
   pk: 81
   fields:
     us_city: Laredo
-    us_state: Texas
+    us_state: TX
     population: 236091
 - model: register.location
   pk: 82
   fields:
     us_city: Madison
-    us_state: Wisconsin
+    us_state: WI
     population: 233209
 - model: register.location
   pk: 83
   fields:
     us_city: Winston-Salem
-    us_state: North Carolina
+    us_state: NC
     population: 229617
 - model: register.location
   pk: 84
   fields:
     us_city: Lubbock
-    us_state: Texas
+    us_state: TX
     population: 229573
 - model: register.location
   pk: 85
   fields:
     us_city: Baton Rouge
-    us_state: Louisiana
+    us_state: LA
     population: 229493
 - model: register.location
   pk: 86
   fields:
     us_city: Durham
-    us_state: North Carolina
+    us_state: NC
     population: 228330
 - model: register.location
   pk: 87
   fields:
     us_city: Garland
-    us_state: Texas
+    us_state: TX
     population: 226876
 - model: register.location
   pk: 88
   fields:
     us_city: Glendale
-    us_state: Arizona
+    us_state: AZ
     population: 226721
 - model: register.location
   pk: 89
   fields:
     us_city: Reno
-    us_state: Nevada
+    us_state: NV
     population: 225221
 - model: register.location
   pk: 90
   fields:
     us_city: Hialeah
-    us_state: Florida
+    us_state: FL
     population: 224669
 - model: register.location
   pk: 91
   fields:
-    us_city: Chesapeake [e]
-    us_state: Virginia
+    us_city: Chesapeake
+    us_state: VA
     population: 222209
 - model: register.location
   pk: 92
   fields:
     us_city: Scottsdale
-    us_state: Arizona
+    us_state: AZ
     population: 217385
 - model: register.location
   pk: 93
   fields:
     us_city: North Las Vegas
-    us_state: Nevada
+    us_state: NV
     population: 216961
 - model: register.location
   pk: 94
   fields:
     us_city: Irving
-    us_state: Texas
+    us_state: TX
     population: 216290
 - model: register.location
   pk: 95
   fields:
     us_city: Fremont
-    us_state: California
+    us_state: CA
     population: 214089
 - model: register.location
   pk: 96
   fields:
     us_city: Irvine
-    us_state: California
+    us_state: CA
     population: 212375
 - model: register.location
   pk: 97
   fields:
     us_city: Birmingham
-    us_state: Alabama
+    us_state: AL
     population: 212237
 - model: register.location
   pk: 98
   fields:
     us_city: Rochester
-    us_state: New York
+    us_state: NY
     population: 210565
 - model: register.location
   pk: 99
   fields:
     us_city: San Bernardino
-    us_state: California
+    us_state: CA
     population: 209924
 - model: register.location
   pk: 100
   fields:
     us_city: Spokane
-    us_state: Washington
+    us_state: WA
     population: 208916
 - model: register.location
   pk: 101
   fields:
     us_city: Gilbert
-    us_state: Arizona
+    us_state: AZ
     population: 208453
 - model: register.location
   pk: 102
   fields:
-    us_city: Arlington [c]
-    us_state: Virginia
+    us_city: Arlington
+    us_state: VA
     population: 207627
 - model: register.location
   pk: 103
   fields:
     us_city: Montgomery
-    us_state: Alabama
+    us_state: AL
     population: 205764
 - model: register.location
   pk: 104
   fields:
     us_city: Boise
-    us_state: Idaho
+    us_state: ID
     population: 205671
 - model: register.location
   pk: 105
   fields:
-    us_city: Richmond [e]
-    us_state: Virginia
+    us_city: Richmond
+    us_state: VA
     population: 204214
 - model: register.location
   pk: 106
   fields:
     us_city: Des Moines
-    us_state: Iowa
+    us_state: IA
     population: 203433
 - model: register.location
   pk: 107
   fields:
     us_city: Modesto
-    us_state: California
+    us_state: CA
     population: 201165
 - model: register.location
   pk: 108
   fields:
     us_city: Fayetteville
-    us_state: North Carolina
+    us_state: NC
     population: 200654
 - model: register.location
   pk: 109
   fields:
     us_city: Shreveport
-    us_state: Louisiana
+    us_state: LA
     population: 199311
 - model: register.location
   pk: 110
   fields:
     us_city: Akron
-    us_state: Ohio
+    us_state: OH
     population: 199110
 - model: register.location
   pk: 111
   fields:
     us_city: Tacoma
-    us_state: Washington
+    us_state: WA
     population: 198397
 - model: register.location
   pk: 112
   fields:
     us_city: Aurora
-    us_state: Illinois
+    us_state: IL
     population: 197899
 - model: register.location
   pk: 113
   fields:
     us_city: Oxnard
-    us_state: California
+    us_state: CA
     population: 197899
 - model: register.location
   pk: 114
   fields:
     us_city: Fontana
-    us_state: California
+    us_state: CA
     population: 196069
 - model: register.location
   pk: 115
   fields:
     us_city: Yonkers
-    us_state: New York
+    us_state: NY
     population: 195976
 - model: register.location
   pk: 116
   fields:
     us_city: Augusta
-    us_state: Georgia
+    us_state: GA
     population: 195844
 - model: register.location
   pk: 117
   fields:
     us_city: Mobile
-    us_state: Alabama
+    us_state: AL
     population: 195111
 - model: register.location
   pk: 118
   fields:
     us_city: Little Rock
-    us_state: Arkansas
+    us_state: AR
     population: 193524
 - model: register.location
   pk: 119
   fields:
     us_city: Moreno Valley
-    us_state: California
+    us_state: CA
     population: 193365
 - model: register.location
   pk: 120
   fields:
     us_city: Glendale
-    us_state: California
+    us_state: CA
     population: 191719
 - model: register.location
   pk: 121
   fields:
     us_city: Amarillo
-    us_state: Texas
+    us_state: TX
     population: 190695
 - model: register.location
   pk: 122
   fields:
     us_city: Huntington Beach
-    us_state: California
+    us_state: CA
     population: 189992
 - model: register.location
   pk: 123
   fields:
     us_city: Columbus
-    us_state: Georgia
+    us_state: GA
     population: 189885
 - model: register.location
   pk: 124
   fields:
     us_city: Grand Rapids
-    us_state: Michigan
+    us_state: MI
     population: 188040
 - model: register.location
   pk: 125
   fields:
     us_city: Salt Lake City
-    us_state: Utah
+    us_state: UT
     population: 186440
 - model: register.location
   pk: 126
   fields:
     us_city: Tallahassee
-    us_state: Florida
+    us_state: FL
     population: 181376
 - model: register.location
   pk: 127
   fields:
     us_city: Worcester
-    us_state: Massachusetts
+    us_state: MA
     population: 181045
 - model: register.location
   pk: 128
   fields:
-    us_city: Newport News [e]
-    us_state: Virginia
+    us_city: Newport News
+    us_state: VA
     population: 180719
 - model: register.location
   pk: 129
   fields:
     us_city: Huntsville
-    us_state: Alabama
+    us_state: AL
     population: 180105
 - model: register.location
   pk: 130
   fields:
     us_city: Knoxville
-    us_state: Tennessee
+    us_state: TN
     population: 178874
 - model: register.location
   pk: 131
   fields:
     us_city: Providence
-    us_state: Rhode Island
+    us_state: RI
     population: 178042
 - model: register.location
   pk: 132
   fields:
     us_city: Santa Clarita
-    us_state: California
+    us_state: CA
     population: 176320
 - model: register.location
   pk: 133
   fields:
     us_city: Grand Prairie
-    us_state: Texas
+    us_state: TX
     population: 175396
 - model: register.location
   pk: 134
   fields:
     us_city: Brownsville
-    us_state: Texas
+    us_state: TX
     population: 175023
 - model: register.location
   pk: 135
   fields:
     us_city: Jackson
-    us_state: Mississippi
+    us_state: MS
     population: 173514
 - model: register.location
   pk: 136
   fields:
     us_city: Overland Park
-    us_state: Kansas
+    us_state: KS
     population: 173372
 - model: register.location
   pk: 137
   fields:
     us_city: Garden Grove
-    us_state: California
+    us_state: CA
     population: 170883
 - model: register.location
   pk: 138
   fields:
     us_city: Santa Rosa
-    us_state: California
+    us_state: CA
     population: 167815
 - model: register.location
   pk: 139
   fields:
     us_city: Chattanooga
-    us_state: Tennessee
+    us_state: TN
     population: 167674
 - model: register.location
   pk: 140
   fields:
     us_city: Oceanside
-    us_state: California
+    us_state: CA
     population: 167086
 - model: register.location
   pk: 141
   fields:
     us_city: Fort Lauderdale
-    us_state: Florida
+    us_state: FL
     population: 165521
 - model: register.location
   pk: 142
   fields:
     us_city: Rancho Cucamonga
-    us_state: California
+    us_state: CA
     population: 165269
 - model: register.location
   pk: 143
   fields:
     us_city: Port St. Lucie
-    us_state: Florida
+    us_state: FL
     population: 164603
 - model: register.location
   pk: 144
   fields:
     us_city: Ontario
-    us_state: California
+    us_state: CA
     population: 163924
 - model: register.location
   pk: 145
   fields:
     us_city: Vancouver
-    us_state: Washington
+    us_state: WA
     population: 161791
 - model: register.location
   pk: 146
   fields:
     us_city: Tempe
-    us_state: Arizona
+    us_state: AZ
     population: 161719
 - model: register.location
   pk: 147
   fields:
     us_city: Springfield
-    us_state: Missouri
+    us_state: MO
     population: 159498
 - model: register.location
   pk: 148
   fields:
     us_city: Lancaster
-    us_state: California
+    us_state: CA
     population: 156633
 - model: register.location
   pk: 149
   fields:
     us_city: Eugene
-    us_state: Oregon
+    us_state: OR
     population: 156185
 - model: register.location
   pk: 150
   fields:
     us_city: Pembroke Pines
-    us_state: Florida
+    us_state: FL
     population: 154750
 - model: register.location
   pk: 151
   fields:
     us_city: Salem
-    us_state: Oregon
+    us_state: OR
     population: 154637
 - model: register.location
   pk: 152
   fields:
     us_city: Cape Coral
-    us_state: Florida
+    us_state: FL
     population: 154305
 - model: register.location
   pk: 153
   fields:
     us_city: Peoria
-    us_state: Arizona
+    us_state: AZ
     population: 154065
 - model: register.location
   pk: 154
   fields:
     us_city: Sioux Falls
-    us_state: South Dakota
+    us_state: SD
     population: 153888
 - model: register.location
   pk: 155
   fields:
     us_city: Springfield
-    us_state: Massachusetts
+    us_state: MA
     population: 153060
 - model: register.location
   pk: 156
   fields:
     us_city: Elk Grove
-    us_state: California
+    us_state: CA
     population: 153015
 - model: register.location
   pk: 157
   fields:
     us_city: Rockford
-    us_state: Illinois
+    us_state: IL
     population: 152871
 - model: register.location
   pk: 158
   fields:
     us_city: Palmdale
-    us_state: California
+    us_state: CA
     population: 152750
 - model: register.location
   pk: 159
   fields:
     us_city: Corona
-    us_state: California
+    us_state: CA
     population: 152374
 - model: register.location
   pk: 160
   fields:
     us_city: Salinas
-    us_state: California
+    us_state: CA
     population: 150441
 - model: register.location
   pk: 161
   fields:
     us_city: Pomona
-    us_state: California
+    us_state: CA
     population: 149058
 - model: register.location
   pk: 162
   fields:
     us_city: Pasadena
-    us_state: Texas
+    us_state: TX
     population: 149043
 - model: register.location
   pk: 163
   fields:
     us_city: Joliet
-    us_state: Illinois
+    us_state: IL
     population: 147433
 - model: register.location
   pk: 164
   fields:
     us_city: Paterson
-    us_state: New Jersey
+    us_state: NJ
     population: 146199
 - model: register.location
   pk: 165
   fields:
     us_city: Kansas City
-    us_state: Kansas
+    us_state: KS
     population: 145786
 - model: register.location
   pk: 166
   fields:
     us_city: Torrance
-    us_state: California
+    us_state: CA
     population: 145438
 - model: register.location
   pk: 167
   fields:
     us_city: Syracuse
-    us_state: New York
+    us_state: NY
     population: 145170
 - model: register.location
   pk: 168
   fields:
     us_city: Bridgeport
-    us_state: Connecticut
+    us_state: CT
     population: 144229
 - model: register.location
   pk: 169
   fields:
     us_city: Hayward
-    us_state: California
+    us_state: CA
     population: 144186
 - model: register.location
   pk: 170
   fields:
     us_city: Fort Collins
-    us_state: Colorado
+    us_state: CO
     population: 143986
 - model: register.location
   pk: 171
   fields:
     us_city: Escondido
-    us_state: California
+    us_state: CA
     population: 143911
 - model: register.location
   pk: 172
   fields:
     us_city: Lakewood
-    us_state: Colorado
+    us_state: CO
     population: 142980
 - model: register.location
   pk: 173
   fields:
     us_city: Naperville
-    us_state: Illinois
+    us_state: IL
     population: 141853
 - model: register.location
   pk: 174
   fields:
     us_city: Dayton
-    us_state: Ohio
+    us_state: OH
     population: 141527
 - model: register.location
   pk: 175
   fields:
     us_city: Hollywood
-    us_state: Florida
+    us_state: FL
     population: 140768
 - model: register.location
   pk: 176
   fields:
     us_city: Sunnyvale
-    us_state: California
+    us_state: CA
     population: 140081
 - model: register.location
   pk: 177
   fields:
-    us_city: Alexandria [f]
-    us_state: Virginia
+    us_city: Alexandria
+    us_state: VA
     population: 139966
 - model: register.location
   pk: 178
   fields:
     us_city: Mesquite
-    us_state: Texas
+    us_state: TX
     population: 139824
 - model: register.location
   pk: 179
   fields:
-    us_city: Hampton [f]
-    us_state: Virginia
+    us_city: Hampton
+    us_state: VA
     population: 137436
 - model: register.location
   pk: 180
   fields:
     us_city: Pasadena
-    us_state: California
+    us_state: CA
     population: 137122
 - model: register.location
   pk: 181
   fields:
     us_city: Orange
-    us_state: California
+    us_state: CA
     population: 136416
 - model: register.location
   pk: 182
   fields:
     us_city: Savannah
-    us_state: Georgia
+    us_state: GA
     population: 136286
 - model: register.location
   pk: 183
   fields:
     us_city: Cary
-    us_state: North Carolina
+    us_state: NC
     population: 135234
 - model: register.location
   pk: 184
   fields:
     us_city: Fullerton
-    us_state: California
+    us_state: CA
     population: 135161
 - model: register.location
   pk: 185
   fields:
     us_city: Warren
-    us_state: Michigan
+    us_state: MI
     population: 134056
 - model: register.location
   pk: 186
   fields:
     us_city: Clarksville
-    us_state: Tennessee
+    us_state: TN
     population: 132929
 - model: register.location
   pk: 187
   fields:
     us_city: McKinney
-    us_state: Texas
+    us_state: TX
     population: 131117
 - model: register.location
   pk: 188
   fields:
     us_city: McAllen
-    us_state: Texas
+    us_state: TX
     population: 129877
 - model: register.location
   pk: 189
   fields:
     us_city: New Haven
-    us_state: Connecticut
+    us_state: CT
     population: 129779
 - model: register.location
   pk: 190
   fields:
     us_city: Sterling Heights
-    us_state: Michigan
+    us_state: MI
     population: 129699
 - model: register.location
   pk: 191
   fields:
     us_city: West Valley City
-    us_state: Utah
+    us_state: UT
     population: 129480
 - model: register.location
   pk: 192
   fields:
     us_city: Columbia
-    us_state: South Carolina
+    us_state: SC
     population: 129272
 - model: register.location
   pk: 193
   fields:
     us_city: Killeen
-    us_state: Texas
+    us_state: TX
     population: 127921
 - model: register.location
   pk: 194
   fields:
     us_city: Topeka
-    us_state: Kansas
+    us_state: KS
     population: 127473
 - model: register.location
   pk: 195
   fields:
     us_city: Thousand Oaks
-    us_state: California
+    us_state: CA
     population: 126683
 - model: register.location
   pk: 196
   fields:
     us_city: Cedar Rapids
-    us_state: Iowa
+    us_state: IA
     population: 126326
 - model: register.location
   pk: 197
   fields:
     us_city: Olathe
-    us_state: Kansas
+    us_state: KS
     population: 125872
 - model: register.location
   pk: 198
   fields:
     us_city: Elizabeth
-    us_state: New Jersey
+    us_state: NJ
     population: 124969
 - model: register.location
   pk: 199
   fields:
     us_city: Waco
-    us_state: Texas
+    us_state: TX
     population: 124805
 - model: register.location
   pk: 200
   fields:
     us_city: Hartford
-    us_state: Connecticut
+    us_state: CT
     population: 124775
 - model: register.location
   pk: 201
   fields:
     us_city: Visalia
-    us_state: California
+    us_state: CA
     population: 124442
 - model: register.location
   pk: 202
   fields:
     us_city: Gainesville
-    us_state: Florida
+    us_state: FL
     population: 124354
 - model: register.location
   pk: 203
   fields:
     us_city: Simi Valley
-    us_state: California
+    us_state: CA
     population: 124237
 - model: register.location
   pk: 204
   fields:
     us_city: Stamford
-    us_state: Connecticut
+    us_state: CT
     population: 122643
 - model: register.location
   pk: 205
   fields:
     us_city: Bellevue
-    us_state: Washington
+    us_state: WA
     population: 122363
 - model: register.location
   pk: 206
   fields:
     us_city: Concord
-    us_state: California
+    us_state: CA
     population: 122067
 - model: register.location
   pk: 207
   fields:
     us_city: Miramar
-    us_state: Florida
+    us_state: FL
     population: 122041
 - model: register.location
   pk: 208
   fields:
     us_city: Coral Springs
-    us_state: Florida
+    us_state: FL
     population: 121096
 - model: register.location
   pk: 209
   fields:
     us_city: Lafayette
-    us_state: Louisiana
+    us_state: LA
     population: 120623
 - model: register.location
   pk: 210
   fields:
     us_city: Charleston
-    us_state: South Carolina
+    us_state: SC
     population: 120083
 - model: register.location
   pk: 211
   fields:
     us_city: Carrollton
-    us_state: Texas
+    us_state: TX
     population: 119097
 - model: register.location
   pk: 212
   fields:
     us_city: Roseville
-    us_state: California
+    us_state: CA
     population: 118788
 - model: register.location
   pk: 213
   fields:
     us_city: Thornton
-    us_state: Colorado
+    us_state: CO
     population: 118772
 - model: register.location
   pk: 214
   fields:
     us_city: Beaumont
-    us_state: Texas
+    us_state: TX
     population: 118296
 - model: register.location
   pk: 215
   fields:
     us_city: Allentown
-    us_state: Pennsylvania
+    us_state: PA
     population: 118032
 - model: register.location
   pk: 216
   fields:
     us_city: Surprise
-    us_state: Arizona
+    us_state: AZ
     population: 117517
 - model: register.location
   pk: 217
   fields:
     us_city: Evansville
-    us_state: Indiana
+    us_state: IN
     population: 117429
 - model: register.location
   pk: 218
   fields:
     us_city: Abilene
-    us_state: Texas
+    us_state: TX
     population: 117063
 - model: register.location
   pk: 219
   fields:
     us_city: Frisco
-    us_state: Texas
+    us_state: TX
     population: 116989
 - model: register.location
   pk: 220
   fields:
     us_city: Independence
-    us_state: Missouri
+    us_state: MO
     population: 116830
 - model: register.location
   pk: 221
   fields:
     us_city: Santa Clara
-    us_state: California
+    us_state: CA
     population: 116468
 - model: register.location
   pk: 222
   fields:
     us_city: Springfield
-    us_state: Illinois
+    us_state: IL
     population: 116250
 - model: register.location
   pk: 223
   fields:
     us_city: Vallejo
-    us_state: California
+    us_state: CA
     population: 115942
 - model: register.location
   pk: 224
   fields:
     us_city: Victorville
-    us_state: California
+    us_state: CA
     population: 115903
 - model: register.location
   pk: 225
   fields:
     us_city: Athens
-    us_state: Georgia
+    us_state: GA
     population: 115452
 - model: register.location
   pk: 226
   fields:
     us_city: Peoria
-    us_state: Illinois
+    us_state: IL
     population: 115007
 - model: register.location
   pk: 227
   fields:
     us_city: Ann Arbor
-    us_state: Michigan
+    us_state: MI
     population: 113934
 - model: register.location
   pk: 228
   fields:
     us_city: El Monte
-    us_state: California
+    us_state: CA
     population: 113475
 - model: register.location
   pk: 229
   fields:
     us_city: Denton
-    us_state: Texas
+    us_state: TX
     population: 113383
 - model: register.location
   pk: 230
   fields:
     us_city: Berkeley
-    us_state: California
+    us_state: CA
     population: 112580
 - model: register.location
   pk: 231
   fields:
     us_city: Provo
-    us_state: Utah
+    us_state: UT
     population: 112488
 - model: register.location
   pk: 232
   fields:
     us_city: Downey
-    us_state: California
+    us_state: CA
     population: 111772
 - model: register.location
   pk: 233
   fields:
     us_city: Midland
-    us_state: Texas
+    us_state: TX
     population: 111147
 - model: register.location
   pk: 234
   fields:
     us_city: Norman
-    us_state: Oklahoma
+    us_state: OK
     population: 110925
 - model: register.location
   pk: 235
   fields:
     us_city: Waterbury
-    us_state: Connecticut
+    us_state: CT
     population: 110366
 - model: register.location
   pk: 236
   fields:
     us_city: Costa Mesa
-    us_state: California
+    us_state: CA
     population: 109960
 - model: register.location
   pk: 237
   fields:
     us_city: Inglewood
-    us_state: California
+    us_state: CA
     population: 109673
 - model: register.location
   pk: 238
   fields:
     us_city: Manchester
-    us_state: New Hampshire
+    us_state: NH
     population: 109565
 - model: register.location
   pk: 239
   fields:
     us_city: Lansing
-    us_state: Michigan
+    us_state: MI
     population: 109563
 - model: register.location
   pk: 240
   fields:
     us_city: Murfreesboro
-    us_state: Tennessee
+    us_state: TN
     population: 108755
 - model: register.location
   pk: 241
   fields:
     us_city: Columbia
-    us_state: Missouri
+    us_state: MO
     population: 108500
 - model: register.location
   pk: 242
   fields:
     us_city: Elgin
-    us_state: Illinois
+    us_state: IL
     population: 108188
 - model: register.location
   pk: 243
   fields:
     us_city: Clearwater
-    us_state: Florida
+    us_state: FL
     population: 107685
 - model: register.location
   pk: 244
   fields:
     us_city: Miami Gardens
-    us_state: Florida
+    us_state: FL
     population: 107167
 - model: register.location
   pk: 245
   fields:
     us_city: Rochester
-    us_state: Minnesota
+    us_state: MN
     population: 106769
 - model: register.location
   pk: 246
   fields:
     us_city: Pueblo
-    us_state: Colorado
+    us_state: CO
     population: 106595
 - model: register.location
   pk: 247
   fields:
     us_city: Lowell
-    us_state: Massachusetts
+    us_state: MA
     population: 106519
 - model: register.location
   pk: 248
   fields:
     us_city: Wilmington
-    us_state: North Carolina
+    us_state: NC
     population: 106476
 - model: register.location
   pk: 249
   fields:
     us_city: Arvada
-    us_state: Colorado
+    us_state: CO
     population: 106433
 - model: register.location
   pk: 250
   fields:
     us_city: Ventura
-    us_state: California
+    us_state: CA
     population: 106433
 - model: register.location
   pk: 251
   fields:
     us_city: Westminster
-    us_state: Colorado
+    us_state: CO
     population: 106114
 - model: register.location
   pk: 252
   fields:
     us_city: West Covina
-    us_state: California
+    us_state: CA
     population: 106098
 - model: register.location
   pk: 253
   fields:
     us_city: Gresham
-    us_state: Oregon
+    us_state: OR
     population: 105594
 - model: register.location
   pk: 254
   fields:
     us_city: Fargo
-    us_state: North Dakota
+    us_state: ND
     population: 105549
 - model: register.location
   pk: 255
   fields:
     us_city: Norwalk
-    us_state: California
+    us_state: CA
     population: 105549
 - model: register.location
   pk: 256
   fields:
     us_city: Carlsbad
-    us_state: California
+    us_state: CA
     population: 105328
 - model: register.location
   pk: 257
   fields:
     us_city: Fairfield
-    us_state: California
+    us_state: CA
     population: 105321
 - model: register.location
   pk: 258
   fields:
     us_city: Cambridge
-    us_state: Massachusetts
+    us_state: MA
     population: 105162
 - model: register.location
   pk: 259
   fields:
     us_city: Wichita Falls
-    us_state: Texas
+    us_state: TX
     population: 104553
 - model: register.location
   pk: 260
   fields:
     us_city: High Point
-    us_state: North Carolina
+    us_state: NC
     population: 104371
 - model: register.location
   pk: 261
   fields:
     us_city: Billings
-    us_state: Montana
+    us_state: MT
     population: 104170
 - model: register.location
   pk: 262
   fields:
     us_city: Green Bay
-    us_state: Wisconsin
+    us_state: WI
     population: 104057
 - model: register.location
   pk: 263
   fields:
     us_city: West Jordan
-    us_state: Utah
+    us_state: UT
     population: 103712
 - model: register.location
   pk: 264
   fields:
     us_city: Richmond
-    us_state: California
+    us_state: CA
     population: 103701
 - model: register.location
   pk: 265
   fields:
     us_city: Murrieta
-    us_state: California
+    us_state: CA
     population: 103466
 - model: register.location
   pk: 266
   fields:
     us_city: Burbank
-    us_state: California
+    us_state: CA
     population: 103340
 - model: register.location
   pk: 267
   fields:
     us_city: Palm Bay
-    us_state: Florida
+    us_state: FL
     population: 103190
 - model: register.location
   pk: 268
   fields:
     us_city: Everett
-    us_state: Washington
+    us_state: WA
     population: 103019
 - model: register.location
   pk: 269
   fields:
     us_city: Flint
-    us_state: Michigan
+    us_state: MI
     population: 102434
 - model: register.location
   pk: 270
   fields:
     us_city: Antioch
-    us_state: California
+    us_state: CA
     population: 102372
 - model: register.location
   pk: 271
   fields:
     us_city: Erie
-    us_state: Pennsylvania
+    us_state: PA
     population: 101786
 - model: register.location
   pk: 272
   fields:
     us_city: South Bend
-    us_state: Indiana
+    us_state: IN
     population: 101168
 - model: register.location
   pk: 273
   fields:
     us_city: Daly City
-    us_state: California
+    us_state: CA
     population: 101123
 - model: register.location
   pk: 274
   fields:
     us_city: Centennial
-    us_state: Colorado
+    us_state: CO
     population: 100377
 - model: register.location
   pk: 275
   fields:
     us_city: Temecula
-    us_state: California
+    us_state: CA
     population: 100097

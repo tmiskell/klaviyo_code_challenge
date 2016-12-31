@@ -20,7 +20,7 @@ def index( request ):
             try:
                 fk = Location.objects.all().filter( pk=location_id )
                 if len(fk) != 1:
-                    # Primary key should be unique.
+                    # Primary key should always be unique.
                     raise ValidationError( "Invalid primary key supplied" )
                 a = Address( location=fk[0], email_address=email_address, creation_date=timezone.now() )
                 # Validate e-mail once more before saving.
@@ -29,13 +29,13 @@ def index( request ):
                 # Successfully entered e-mail address. Redirect to confirmation page.
                 return HttpResponseRedirect( redirect )
             except ValidationError, exc:
-                # Email was invalid or not unique. Capture the error message.
+                # Capture any unexpected error messages.
                 error_msg = "%s" % exc
         else:
              error_msg = "Invalid form"
     else:
-        # Create an empty form
-        form = RegisterForm( )
+        # First time navigating to the page. Create an empty form.
+        form = RegisterForm( initial={'Where do you live?': '0'} )
     context = { 'title': TITLE,
                 'form': form,
                 'error_msg': error_msg
@@ -47,6 +47,5 @@ def confirmation( request ):
     result = "Successfully registered e-mail address"
     context = { 'title': TITLE,
                 'result': result,
-#                'email_address': email_address
               }
     return render( request, template, context )
