@@ -1,5 +1,0 @@
-API_KEY = "2tab9fyvrvuiYrReaH0hE"
-SECRET_KEY = "PIUgxrZ53NwHNdV71yyQF7PfA6r2laPyNLj99pfL"
-WEATHER_BASE_URL = "http://api.aerisapi.com"
-DJANGO_APP = "weather_app_site"
-AUTHOR_ADDRESS = "tmiskell@morphotrust.com"

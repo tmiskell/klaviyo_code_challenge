@@ -8,13 +8,19 @@ def create_email_body( next_recipient, next_weather ):
               upon sending out the corresponding e-mail.
     """
     degree_symbol = u"\N{DEGREE SIGN}"
-    email_body = "Recipient's Location:\t"
+    email_body = "<html>\n"
+    email_body += "\t<head>\n"
+    email_body += "\t</head>\n"
+    email_body += "\t<body>\n"
+    email_body += "\t\t<p>Recipient's Location: "
     email_body += next_recipient.us_city() + ", " + next_recipient.us_state() 
-    email_body += "\n"
-    email_body += "Current temperature and weather:\t"
+    email_body += "</p>\n"
+    email_body += "\t\t<p>Current temperature and weather:\t"
     email_body += str( next_weather.curr_temp_f() ) + " " + degree_symbol + "F"
     email_body += " (" + str( next_weather.curr_temp_c() ) + " " + degree_symbol + "C)"
     email_body += ", "+ next_weather.condition()
-    email_body += "\n"
+    email_body += "</p>\n"
+    email_body += "\t</body>\n"
+    email_body += "</html>\n"
 
     return email_body

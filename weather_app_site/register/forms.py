@@ -18,6 +18,7 @@ class Default_opt_disabled_widget( forms.Select ):
                 selected_choices.remove(option_value)
         else:
             selected_html = ''
+        option_label = option_label.replace( ':', '' )
         if option_value == DEFAULT_OPTION:
             return format_html('<option value="{}"{} selected="selected" disabled>{}</option>', 
                                option_value, selected_html, force_text(option_label))
@@ -26,7 +27,7 @@ class Default_opt_disabled_widget( forms.Select ):
 
 class RegisterForm( forms.Form ):
     # Add the email form.
-    email_address = forms.EmailField( label="Email address", 
+    email_address = forms.EmailField( label="Email Address", 
                                       required=True 
                                     )
     # Pull the top NUM_CITIES cities by population.    

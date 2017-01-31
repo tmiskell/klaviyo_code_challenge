@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
  <head>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'register/style.css' %}" />
   <title>{{ title }}</title>
  </head>
  <body>
-  <h2>{{ title }}</h2>
-   <p>{{ result }}</p>
+  <div>
+   <h2>{{ title }}</h2>
+   <hr />
+   <br />
+  </div>
+  <div>
+   <p class="result">{{ result }}</p>
+  </div>
+  <br />
+  <br />
+  <br />
  </body>
 </html>

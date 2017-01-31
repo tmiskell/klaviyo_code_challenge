@@ -44,7 +44,7 @@ def index( request ):
 
 def confirmation( request ):
     template = 'register/confirmation.html'
-    result = "Successfully registered e-mail address"
+    result = "Successfully registered e-mail address!"
     context = { 'title': TITLE,
                 'result': result,
               }

@@ -25,15 +25,17 @@ import os
 import sys
 import errno
 import django
-from .global_vars import DJANGO_APP, AUTHOR_ADDRESS
-from .classes import Email, Weather, Recipient
-from .retrieve_list import retrieve_list
-from .retrieve_weather import retrieve_weather
-from .change_subject import change_subject
-from .create_email_body import create_email_body
-from .send_out_email import send_out_email
+from urllib2 import HTTPError
 from weather_app_site import setup
+from .save_email import save_email
+from .retrieve_list import retrieve_list
 from socket import error as socket_error
+from .send_out_email import send_out_email
+from .change_subject import change_subject
+from .classes import Email, Weather, Recipient
+from .retrieve_weather import retrieve_weather
+from .create_email_body import create_email_body
+from .global_vars import DJANGO_APP, AUTHOR_ADDRESS
 
 def main( argv ):
     status_code = os.EX_OK
@@ -52,26 +54,34 @@ def main( argv ):
     sys.stdout.write( "Retrieved %d emails\n" % (len(recipient_list)) )
     for recipient in recipient_list:
         next_recipient = Recipient( recipient.email_address, recipient.location.us_city, recipient.location.us_state )
-        sys.stdout.write( "\tRetrieving weather in %s, %s for %s\n" % 
-                          (next_recipient.us_city(), next_recipient.us_state(), next_recipient.address()) )
+        sys.stdout.write( "Generating email for %s\n" % (next_recipient.address()) )
+        sys.stdout.write( "\tRetrieving weather in %s, %s\n" % 
+                          (next_recipient.us_city(), next_recipient.us_state()) )
         try:
             next_weather = retrieve_weather( next_recipient )
-        except (ValueError, IOError) as exc:
-            sys.stderr.write( "\t%s\n" % exc )
-            sys.stderr.write( "\tUnable to retrieve weather for %s, %s\n" %  
+        except (ValueError, IOError, HTTPError) as exc:
+            sys.stderr.write( "\t*** %s ***\n" % exc )
+            sys.stderr.write( "\t*** Unable to retrieve weather in %s, %s ***\n" %  
                               (next_recipient.us_city(), next_recipient.us_state()) )
+            status_code = os.EX_IOERR
             continue
-        sys.stdout.write( "\tPersonalizing email subject for %s\n" % (next_recipient.address()) )
+        sys.stdout.write( "\tPersonalizing email subject\n" )
         next_subject = change_subject( next_weather )
-        sys.stdout.write( "\tPersonalizing email body for %s\n" % (next_recipient.address()) )
+        sys.stdout.write( "\tPersonalizing email body\n" )
         next_body = create_email_body( next_recipient, next_weather )
         next_email = Email( sender_address, next_recipient.address(), next_subject, next_body )
-        sys.stdout.write( "\tSending email to %s\n" % (next_recipient.address()) )
+        sys.stdout.write( "\tSending email\n" )
         try:
-            send_out_email( next_email, next_weather.image() )
+            formatted_email = send_out_email( next_email, next_weather.image() )
             num_sent += 1
         except socket_error as exc:
-            sys.stderr.write( "\t%s\n" % exc )
+            sys.stderr.write( "\t*** %s ***\n" % exc )
+            status_code = os.EX_IOERR
+        try:
+            email_file = save_email( formatted_email )
+            sys.stdout.write( "Saved %s\n" % (os.path.basename(email_file)) )
+        except IOError as exc:
+            sys.stderr.write( "\t*** %s ***\n" % exc )
     sys.stdout.write( "Sent %d emails\n" % (num_sent) )
     return status_code
 
