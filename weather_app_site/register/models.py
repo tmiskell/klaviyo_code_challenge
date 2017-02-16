@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 from django.db import models
-from .global_vars import US_CITY_MAX_LEN, US_STATE_MAX_LEN, EMAIL_MAX_LEN
+from .global_vars import US_CITY_MAX_LEN, US_STATE_MAX_LEN, AIRPORT_MAX_LEN, EMAIL_MAX_LEN
 
 # Create your models here.
 class Location( models.Model ):
@@ -17,6 +17,11 @@ class Location( models.Model ):
     us_state = models.CharField( max_length=US_STATE_MAX_LEN )
     # U.S. city population. Do not allow negative values.
     population = models.PositiveIntegerField( default=0 )
+    """
+        3 character airport code for airport located closest in 
+        proximity to a given city and state.
+    """
+    airport = models.CharField( max_length=AIRPORT_MAX_LEN )
     def __str__( self ):
         # Adjust the string representation of the model for the drop down menu.
         return self.us_city + ", " + self.us_state

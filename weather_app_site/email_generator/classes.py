@@ -1,3 +1,4 @@
+import sys
 import HTMLParser
 
 class Email( object ):
@@ -6,12 +7,16 @@ class Email( object ):
         self._rcv_addr = rcv_addr
         self._subject = subject
         self._body = body
+
     def send_addr( self ):
         return self._send_addr
+
     def rcv_addr( self ):
         return self._rcv_addr
+
     def subject( self ):
          return self._subject
+
     def body( self ):
         return self._body
 
@@ -20,12 +25,12 @@ class Weather( object ):
         # Ensure that current temperature is valid.
         try:
             self._curr_temp_f = float( curr_temp_f )
-        except ValueError:
+        except (ValueError, TypeError):
             # Attempt to continue, using Celsius version.
             curr_temp_f = None
         try:
             self._curr_temp_c = float( curr_temp_c )
-        except ValueError:
+        except (ValueError, TypeError):
             # Attempt to continue, using Farenheit version.
             curr_temp_c = None
         if curr_temp_f is None:
@@ -37,12 +42,12 @@ class Weather( object ):
             self._curr_temp_c = self._far_to_celsius( self.curr_temp_f() )
         try:
             self._past_temp_f = float( past_temp_f )
-        except ValueError:
+        except (ValueError, TypeError):
             # Attempt to continue, using Celsius version.
             past_temp_f = None
         try:
             self._past_temp_c = float( past_temp_c )
-        except ValueError:
+        except (ValueError, TypeError):
             # Attempt to continue, using Farenheit version.
             past_temp_c = None
         if past_temp_f is None:
@@ -54,37 +59,54 @@ class Weather( object ):
             self._past_temp_c = self._far_to_celsius( self.past_temp_f() )
         self._condition = condition
         self._image = image
+
     def _far_to_celsius( self, x ):
         return (5.0 / 9.0) * (x - 32.0)
+
     def _celsius_to_far( self, x ):
         return (9.0 / 5.0) * (x + 32.0)
+
     def __str__( self ):
         return self.condition + ", " + self.curr_temp_f + " F, (" + self.curr_temp_c + " C)"
+
     def curr_temp_f( self ):
         return self._curr_temp_f
+
     def past_temp_f( self ):
         return self._past_temp_f
+
     def past_temp_c( self ):
         return self._past_temp_c
+
     def condition( self ):
         return self._condition
+
     def image( self ):
         return self._image
+
     def curr_temp_c( self ):
         return self._curr_temp_c
 
 class Recipient( object ):
-    def __init__( self, address, us_city, us_state ):
+    def __init__( self, address, us_city, us_state, airport ):
         self._address = address
         self._us_city = us_city
         self._us_state = us_state
         self._us_state_full_name = self.us_state_convert
+        self._airport = airport
+
     def address( self ):
         return self._address
+
     def us_city( self ):
         return self._us_city
+
     def us_state( self ):
         return self._us_state 
+
+    def airport( self ):
+        return self._airport
+
     def us_state_convert( self ):
         us_dict = { 'AL': 'Alabama',
                     'AK': 'Alaska',
@@ -174,25 +196,26 @@ class ArchiveWeatherParser( HTMLParser.HTMLParser ):
         try:
             int( x )
             return True
-        except ValueError:
+        except (ValueError, TypeError):
             return False
 
-    def ActualTemp( self ):
+    def actual_temp( self ):
         return self._actual_temp
 
-    def AvgTemp( self ):
+    def avg_temp( self ):
         return self._avg_temp
 
-    def RecTemp( self ):
+    def rec_temp( self ):
         return self._rec_temp
 
-    def Units( self ):
+    def units( self ):
         return self._units
     
     def handle_starttag( self, tag, attrs ):
         if self._finished:
             return
         if tag == "table":
+            sys.stdout.write( "Detected start of next table.\n" )            
             self._n_row = 0
             self._n_col = 0
             self._mean_loc = None
@@ -202,17 +225,21 @@ class ArchiveWeatherParser( HTMLParser.HTMLParser ):
         elif tag == "tr":
             self._n_col = 0
             self._n_row += 1
+            sys.stdout.write( "Row number: %d\n" % (self._n_row) )            
         elif tag == "th":
             self._n_col += 1
+            sys.stdout.write( "Column number: %d\n" % (self._n_row) )            
         elif tag == "td":
             self._n_col += 1
+            sys.stdout.write( "Column number: %d\n" % (self._n_row) )            
         return
             
     def handle_endtag( self, tag ):
         if self._finished:
             return
         if tag == "tr":
-            if self.ActualTemp() or self.AvgTemp() or self.RecTemp():
+            if self.actual_temp() or self.avg_temp() or self.rec_temp():
+                sys.stdout.write( "Found temperature\n" )            
                 self._finished = True
         return
             
@@ -223,24 +250,36 @@ class ArchiveWeatherParser( HTMLParser.HTMLParser ):
         if cleaned_data:
             if self._mean_loc:
                 if self._n_row == self._mean_loc:
+                    # Currently reading the mean temperature row
                     if self._is_int( cleaned_data ):
                         if self._actual_loc:
                             if self._n_col == self._actual_loc:
+                                # Currently reading the actual temperature column
                                 self._actual_temp = int( cleaned_data )
+                                sys.stdout.write( "Actual temperature: %d\n" % (self.actual_temp()) )            
                         if self._avg_loc:
                             if self._n_col == self._avg_loc:
+                                # Currently reading the average temperature column
                                 self._avg_temp = int( cleaned_data )
+                                sys.stdout.write( "Average temperature: %d\n" % (self.avg_temp()) )            
                         if self._rec_loc:
                             if self._n_col == self._rec_loc:
+                                # Currently reading the record temperature column
                                 self._rec_temp = int( cleaned_data )
+                                sys.stdout.write( "Record temperature: %d\n" % (self.rec_temp()) )            
                     elif ("f" in cleaned_data) or ("c" in cleaned_data):
                         self._units = cleaned_data.replace("&nbps;", "").replace("&deg;", "")
+                        sys.stdout.write( "Units: %s\n" % (self.units()) )            
             elif cleaned_data == "mean temperature":
                 self._mean_loc = self._n_row
+                sys.stdout.write( "Mean temperature row: %d\n" % (self.mean_loc()) )            
             elif cleaned_data == "actual":
                 self._actual_loc = self._n_col
+                sys.stdout.write( "Actual temperature column: %d\n" % (self.actual_loc()) )            
             elif cleaned_data == "average":
                 self._avg_loc = self._n_col
+                sys.stdout.write( "Average temperature column: %d\n" % (self.avg_loc()) )            
             elif cleaned_data == "record":
                 self._rec_loc = self._n_col
+                sys.stdout.write( "Record temperature column: %d\n" % (self.rec_loc()) )            
         return

@@ -53,7 +53,8 @@ def main( argv ):
     recipient_list = retrieve_list( )
     sys.stdout.write( "Retrieved %d emails\n" % (len(recipient_list)) )
     for recipient in recipient_list:
-        next_recipient = Recipient( recipient.email_address, recipient.location.us_city, recipient.location.us_state )
+        next_recipient = Recipient( recipient.email_address, recipient.location.us_city, 
+                                    recipient.location.us_state, recipient.location.airport )
         sys.stdout.write( "Generating email for %s\n" % (next_recipient.address()) )
         sys.stdout.write( "\tRetrieving weather in %s, %s\n" % 
                           (next_recipient.us_city(), next_recipient.us_state()) )

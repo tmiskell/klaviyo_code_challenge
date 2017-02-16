@@ -4,1647 +4,1922 @@
     us_city: New York
     us_state: NY
     population: 8175133
+    airport: NYC
 - model: register.location
   pk: 2
   fields:
     us_city: Los Angeles
     us_state: CA
     population: 3792621
+    airport: LAX
 - model: register.location
   pk: 3
   fields:
     us_city: Chicago
     us_state: IL
     population: 2695598
+    airport: CGX
 - model: register.location
   pk: 4
   fields:
     us_city: Houston
     us_state: TX
     population: 2099451
+    airport: HOU
 - model: register.location
   pk: 5
   fields:
     us_city: Philadelphia
     us_state: PA
     population: 1526006
+    airport: PHL
 - model: register.location
   pk: 6
   fields:
     us_city: Phoenix
     us_state: AZ
     population: 1445632
+    airport: PHX
 - model: register.location
   pk: 7
   fields:
     us_city: San Antonio
     us_state: TX
     population: 1327407
+    airport: SAT
 - model: register.location
   pk: 8
   fields:
     us_city: San Diego
     us_state: CA
     population: 1307402
+    airport: SAN
 - model: register.location
   pk: 9
   fields:
     us_city: Dallas
     us_state: TX
     population: 1197816
+    airport: DFW
 - model: register.location
   pk: 10
   fields:
     us_city: San Jose
     us_state: CA
     population: 945942
+    airport: SJC
 - model: register.location
   pk: 11
   fields:
     us_city: Jacksonville
     us_state: FL
     population: 821784
+    airport: JAX
 - model: register.location
   pk: 12
   fields:
     us_city: Indianapolis
     us_state: IN
     population: 820445
+    airport: IND
 - model: register.location
   pk: 13
   fields:
     us_city: San Francisco
     us_state: CA
     population: 805235
+    airport: SFO
 - model: register.location
   pk: 14
   fields:
     us_city: Austin
     us_state: TX
     population: 790390
+    airport: AUS
 - model: register.location
   pk: 15
   fields:
     us_city: Columbus
     us_state: OH
     population: 787033
+    airport: CMH
 - model: register.location
   pk: 16
   fields:
     us_city: Fort Worth
     us_state: TX
     population: 741206
+    airport: DFW
 - model: register.location
   pk: 17
   fields:
     us_city: Charlotte
     us_state: NC
     population: 731424
+    airport: CLT
 - model: register.location
   pk: 18
   fields:
     us_city: Detroit
     us_state: MI
     population: 713777
+    airport: DTT
 - model: register.location
   pk: 19
   fields:
     us_city: El Paso
     us_state: TX
     population: 649121
+    airport: ELP
 - model: register.location
   pk: 20
   fields:
     us_city: Memphis
     us_state: TN
     population: 646889
+    airport: MEM
 - model: register.location
   pk: 21
   fields:
     us_city: Baltimore
     us_state: MD
     population: 620961
+    airport: BWI
 - model: register.location
   pk: 22
   fields:
     us_city: Boston
     us_state: MA
     population: 617594
+    airport: BOS
 - model: register.location
   pk: 23
   fields:
     us_city: Seattle
     us_state: WA
     population: 608660
+    airport: LKE
 - model: register.location
   pk: 24
   fields:
     us_city: Washington
     us_state: DC
     population: 601723
+    airport: WAS
 - model: register.location
   pk: 25
   fields:
     us_city: Nashville
     us_state: TN
     population: 601222
+    airport: BNA
 - model: register.location
   pk: 26
   fields:
     us_city: Denver
     us_state: CO
     population: 600158
+    airport: DEN
 - model: register.location
   pk: 27
   fields:
     us_city: Louisville
     us_state: KY
     population: 597337
+    airport: SDF
 - model: register.location
   pk: 28
   fields:
     us_city: Milwaukee
     us_state: WI
     population: 594833
+    airport: MKE
 - model: register.location
   pk: 29
   fields:
     us_city: Portland
     us_state: OR
     population: 583776
+    airport: PDX
 - model: register.location
   pk: 30
   fields:
     us_city: Las Vegas
     us_state: NV
     population: 583756
+    airport: LAS
 - model: register.location
   pk: 31
   fields:
     us_city: Oklahoma City
     us_state: OK
     population: 579999
+    airport: OKC
 - model: register.location
   pk: 32
   fields:
     us_city: Albuquerque
     us_state: NM
     population: 545852
+    airport: ABQ
 - model: register.location
   pk: 33
   fields:
     us_city: Tucson
     us_state: AZ
     population: 520116
+    airport: TUS
 - model: register.location
   pk: 34
   fields:
     us_city: Fresno
     us_state: CA
     population: 494665
+    airport: FAT
 - model: register.location
   pk: 35
   fields:
     us_city: Sacramento
     us_state: CA
     population: 466488
+    airport: SMF
 - model: register.location
   pk: 36
   fields:
     us_city: Long Beach
     us_state: CA
     population: 462257
+    airport: LGB
 - model: register.location
   pk: 37
   fields:
     us_city: Kansas City
     us_state: MO
     population: 459787
+    airport: MCI
 - model: register.location
   pk: 38
   fields:
     us_city: Mesa
     us_state: AZ
     population: 439041
+    airport: AZA
 - model: register.location
   pk: 39
   fields:
     us_city: Virginia Beach
     us_state: VA
     population: 437994
+    airport: ORF
 - model: register.location
   pk: 40
   fields:
     us_city: Atlanta
     us_state: GA
     population: 420003
+    airport: ATL
 - model: register.location
   pk: 41
   fields:
     us_city: Colorado Springs
     us_state: CO
     population: 416427
+    airport: COS
 - model: register.location
   pk: 42
   fields:
     us_city: Omaha
     us_state: NE
     population: 408958
+    airport: OMA
 - model: register.location
   pk: 43
   fields:
     us_city: Raleigh
     us_state: NC
     population: 403892
+    airport: RDU
 - model: register.location
   pk: 44
   fields:
     us_city: Miami
     us_state: FL
     population: 399457
+    airport: MIA
 - model: register.location
   pk: 45
   fields:
     us_city: Cleveland
     us_state: OH
     population: 396815
+    airport: CLE
 - model: register.location
   pk: 46
   fields:
     us_city: Tulsa
     us_state: OK
     population: 391906
+    airport: TUL
 - model: register.location
   pk: 47
   fields:
     us_city: Oakland
     us_state: CA
     population: 390724
+    airport: OAK
 - model: register.location
   pk: 48
   fields:
     us_city: Minneapolis
     us_state: MN
     population: 382578
+    airport: MSP
 - model: register.location
   pk: 49
   fields:
     us_city: Wichita
     us_state: KS
     population: 382368
+    airport: ICT
 - model: register.location
   pk: 50
   fields:
     us_city: Arlington
     us_state: TX
     population: 365438
+    airport: GKY
 - model: register.location
   pk: 51
   fields:
     us_city: Bakersfield
     us_state: CA
     population: 347483
+    airport: BFL
 - model: register.location
   pk: 52
   fields:
     us_city: New Orleans
     us_state: LA
     population: 343829
+    airport: MSY
 - model: register.location
   pk: 53
   fields:
     us_city: Honolulu
     us_state: HI
     population: 337256
+    airport: HNL
 - model: register.location
   pk: 54
   fields:
     us_city: Anaheim
     us_state: CA
     population: 336265
+    airport: SNA
 - model: register.location
   pk: 55
   fields:
     us_city: Tampa
     us_state: FL
     population: 335709
+    airport: TPA
 - model: register.location
   pk: 56
   fields:
     us_city: Aurora
     us_state: CO
     population: 325078
+    airport: FTG
 - model: register.location
   pk: 57
   fields:
     us_city: Santa Ana
     us_state: CA
     population: 324528
+    airport: SNA
 - model: register.location
   pk: 58
   fields:
     us_city: St. Louis
     us_state: MO
     population: 319294
+    airport: STL
 - model: register.location
   pk: 59
   fields:
     us_city: Pittsburgh
     us_state: PA
     population: 305704
+    airport: PIT
 - model: register.location
   pk: 60
   fields:
     us_city: Corpus Christi
     us_state: TX
     population: 305215
+    airport: CRP
 - model: register.location
   pk: 61
   fields:
     us_city: Riverside
     us_state: CA
     population: 303871
+    airport: RAL
 - model: register.location
   pk: 62
   fields:
     us_city: Cincinnati
     us_state: OH
     population: 296943
+    airport: CVG
 - model: register.location
   pk: 63
   fields:
     us_city: Lexington
     us_state: KY
     population: 295803
+    airport: LEX
 - model: register.location
   pk: 64
   fields:
     us_city: Anchorage
     us_state: AK
     population: 291826
+    airport: ANC
 - model: register.location
   pk: 65
   fields:
     us_city: Stockton
     us_state: CA
     population: 291707
+    airport: SCK
 - model: register.location
   pk: 66
   fields:
     us_city: Toledo
     us_state: OH
     population: 287208
+    airport: TOL
 - model: register.location
   pk: 67
   fields:
     us_city: St. Paul
     us_state: MN
     population: 285068
+    airport: MSP
 - model: register.location
   pk: 68
   fields:
     us_city: Newark
     us_state: NJ
     population: 277140
+    airport: EWR
 - model: register.location
   pk: 69
   fields:
     us_city: Greensboro
     us_state: NC
     population: 269666
+    airport: GSO
 - model: register.location
   pk: 70
   fields:
     us_city: Buffalo
     us_state: NY
     population: 261310
+    airport: BUF
 - model: register.location
   pk: 71
   fields:
     us_city: Plano
     us_state: TX
     population: 259841
+    airport: DFW
 - model: register.location
   pk: 72
   fields:
     us_city: Lincoln
     us_state: NE
     population: 258379
+    airport: LNK
 - model: register.location
   pk: 73
   fields:
     us_city: Henderson
     us_state: NV
     population: 257729
+    airport: HND
 - model: register.location
   pk: 74
   fields:
     us_city: Fort Wayne
     us_state: IN
     population: 253691
+    airport: FWA
 - model: register.location
   pk: 75
   fields:
     us_city: Jersey City
     us_state: NJ
     population: 247597
+    airport: ACY
 - model: register.location
   pk: 76
   fields:
     us_city: St. Petersburg
     us_state: FL
     population: 244769
+    airport: PIE
 - model: register.location
   pk: 77
   fields:
     us_city: Chula Vista
     us_state: CA
     population: 243916
+    airport: SAN
 - model: register.location
   pk: 78
   fields:
     us_city: Norfolk
     us_state: VA
     population: 242803
+    airport: ORF
 - model: register.location
   pk: 79
   fields:
     us_city: Orlando
     us_state: FL
     population: 238300
+    airport: ORL
 - model: register.location
   pk: 80
   fields:
     us_city: Chandler
     us_state: AZ
     population: 236123
+    airport: CHD
 - model: register.location
   pk: 81
   fields:
     us_city: Laredo
     us_state: TX
     population: 236091
+    airport: LRD
 - model: register.location
   pk: 82
   fields:
     us_city: Madison
     us_state: WI
     population: 233209
+    airport: MSN
 - model: register.location
   pk: 83
   fields:
-    us_city: Winston-Salem
+    us_city: Winston Salem
     us_state: NC
     population: 229617
+    airport: INT
 - model: register.location
   pk: 84
   fields:
     us_city: Lubbock
     us_state: TX
     population: 229573
+    airport: LBB
 - model: register.location
   pk: 85
   fields:
     us_city: Baton Rouge
     us_state: LA
     population: 229493
+    airport: BTR
 - model: register.location
   pk: 86
   fields:
     us_city: Durham
     us_state: NC
     population: 228330
+    airport: RDU
 - model: register.location
   pk: 87
   fields:
     us_city: Garland
     us_state: TX
     population: 226876
+    airport: DFW
 - model: register.location
   pk: 88
   fields:
     us_city: Glendale
     us_state: AZ
     population: 226721
+    airport: AZA
 - model: register.location
   pk: 89
   fields:
     us_city: Reno
     us_state: NV
     population: 225221
+    airport: RNO
 - model: register.location
   pk: 90
   fields:
     us_city: Hialeah
     us_state: FL
     population: 224669
+    airport: FLL
 - model: register.location
   pk: 91
   fields:
     us_city: Chesapeake
     us_state: VA
     population: 222209
+    airport: CPK
 - model: register.location
   pk: 92
   fields:
     us_city: Scottsdale
     us_state: AZ
     population: 217385
+    airport: SDL
 - model: register.location
   pk: 93
   fields:
     us_city: North Las Vegas
     us_state: NV
     population: 216961
+    airport: VGT
 - model: register.location
   pk: 94
   fields:
     us_city: Irving
     us_state: TX
     population: 216290
+    airport: DFW
 - model: register.location
   pk: 95
   fields:
     us_city: Fremont
     us_state: CA
     population: 214089
+    airport: SJC
 - model: register.location
   pk: 96
   fields:
     us_city: Irvine
     us_state: CA
     population: 212375
+    airport: SNA
 - model: register.location
   pk: 97
   fields:
     us_city: Birmingham
     us_state: AL
     population: 212237
+    airport: BHM
 - model: register.location
   pk: 98
   fields:
     us_city: Rochester
     us_state: NY
     population: 210565
+    airport: ROC
 - model: register.location
   pk: 99
   fields:
     us_city: San Bernardino
     us_state: CA
     population: 209924
+    airport: SBD
 - model: register.location
   pk: 100
   fields:
     us_city: Spokane
     us_state: WA
     population: 208916
+    airport: GEG
 - model: register.location
   pk: 101
   fields:
     us_city: Gilbert
     us_state: AZ
     population: 208453
+    airport: IWA
 - model: register.location
   pk: 102
   fields:
     us_city: Arlington
     us_state: VA
     population: 207627
+    airport: DCA
 - model: register.location
   pk: 103
   fields:
     us_city: Montgomery
     us_state: AL
     population: 205764
+    airport: MGM
 - model: register.location
   pk: 104
   fields:
     us_city: Boise
     us_state: ID
     population: 205671
+    airport: BOI
 - model: register.location
   pk: 105
   fields:
     us_city: Richmond
     us_state: VA
     population: 204214
+    airport: RIC
 - model: register.location
   pk: 106
   fields:
     us_city: Des Moines
     us_state: IA
     population: 203433
+    airport: DSM
 - model: register.location
   pk: 107
   fields:
     us_city: Modesto
     us_state: CA
     population: 201165
+    airport: MOD
 - model: register.location
   pk: 108
   fields:
     us_city: Fayetteville
     us_state: NC
     population: 200654
+    airport: FAY
 - model: register.location
   pk: 109
   fields:
     us_city: Shreveport
     us_state: LA
     population: 199311
+    airport: SHV
 - model: register.location
   pk: 110
   fields:
     us_city: Akron
     us_state: OH
     population: 199110
+    airport: CAK
 - model: register.location
   pk: 111
   fields:
     us_city: Tacoma
     us_state: WA
     population: 198397
+    airport: SEA
 - model: register.location
   pk: 112
   fields:
     us_city: Aurora
     us_state: IL
     population: 197899
+    airport: AUZ
 - model: register.location
   pk: 113
   fields:
     us_city: Oxnard
     us_state: CA
     population: 197899
+    airport: OXR
 - model: register.location
   pk: 114
   fields:
     us_city: Fontana
     us_state: CA
     population: 196069
+    airport: SNA
 - model: register.location
   pk: 115
   fields:
     us_city: Yonkers
     us_state: NY
     population: 195976
+    airport: JFK
 - model: register.location
   pk: 116
   fields:
     us_city: Augusta
     us_state: GA
     population: 195844
+    airport: AGS
 - model: register.location
   pk: 117
   fields:
     us_city: Mobile
     us_state: AL
     population: 195111
+    airport: MOB
 - model: register.location
   pk: 118
   fields:
     us_city: Little Rock
     us_state: AR
     population: 193524
+    airport: LIT
 - model: register.location
   pk: 119
   fields:
     us_city: Moreno Valley
     us_state: CA
     population: 193365
+    airport: SBD
 - model: register.location
   pk: 120
   fields:
     us_city: Glendale
     us_state: CA
     population: 191719
+    airport: BUR
 - model: register.location
   pk: 121
   fields:
     us_city: Amarillo
     us_state: TX
     population: 190695
+    airport: AMA
 - model: register.location
   pk: 122
   fields:
     us_city: Huntington Beach
     us_state: CA
     population: 189992
+    airport: SNA
 - model: register.location
   pk: 123
   fields:
     us_city: Columbus
     us_state: GA
     population: 189885
+    airport: CSG
 - model: register.location
   pk: 124
   fields:
     us_city: Grand Rapids
     us_state: MI
     population: 188040
+    airport: GRR
 - model: register.location
   pk: 125
   fields:
     us_city: Salt Lake City
     us_state: UT
     population: 186440
+    airport: SLC
 - model: register.location
   pk: 126
   fields:
     us_city: Tallahassee
     us_state: FL
     population: 181376
+    airport: TLH
 - model: register.location
   pk: 127
   fields:
     us_city: Worcester
     us_state: MA
     population: 181045
+    airport: ORH
 - model: register.location
   pk: 128
   fields:
     us_city: Newport News
     us_state: VA
     population: 180719
+    airport: PHF
 - model: register.location
   pk: 129
   fields:
     us_city: Huntsville
     us_state: AL
     population: 180105
+    airport: HSV
 - model: register.location
   pk: 130
   fields:
     us_city: Knoxville
     us_state: TN
     population: 178874
+    airport: TYS
 - model: register.location
   pk: 131
   fields:
     us_city: Providence
     us_state: RI
     population: 178042
+    airport: PVD
 - model: register.location
   pk: 132
   fields:
     us_city: Santa Clarita
     us_state: CA
     population: 176320
+    airport: PMD
 - model: register.location
   pk: 133
   fields:
     us_city: Grand Prairie
     us_state: TX
     population: 175396
+    airport: GPM
 - model: register.location
   pk: 134
   fields:
     us_city: Brownsville
     us_state: TX
     population: 175023
+    airport: BRO
 - model: register.location
   pk: 135
   fields:
     us_city: Jackson
     us_state: MS
     population: 173514
+    airport: JAN
 - model: register.location
   pk: 136
   fields:
     us_city: Overland Park
     us_state: KS
     population: 173372
+    airport: MCI
 - model: register.location
   pk: 137
   fields:
     us_city: Garden Grove
     us_state: CA
     population: 170883
+    airport: SNA
 - model: register.location
   pk: 138
   fields:
     us_city: Santa Rosa
     us_state: CA
     population: 167815
+    airport: STS
 - model: register.location
   pk: 139
   fields:
     us_city: Chattanooga
     us_state: TN
     population: 167674
+    airport: CHA
 - model: register.location
   pk: 140
   fields:
     us_city: Oceanside
     us_state: CA
     population: 167086
+    airport: CLD
 - model: register.location
   pk: 141
   fields:
     us_city: Fort Lauderdale
     us_state: FL
     population: 165521
+    airport: FLL
 - model: register.location
   pk: 142
   fields:
     us_city: Rancho Cucamonga
     us_state: CA
     population: 165269
+    airport: LAX
 - model: register.location
   pk: 143
   fields:
     us_city: Port St. Lucie
     us_state: FL
     population: 164603
+    airport: FPR
 - model: register.location
   pk: 144
   fields:
     us_city: Ontario
     us_state: CA
     population: 163924
+    airport: ONT
 - model: register.location
   pk: 145
   fields:
     us_city: Vancouver
     us_state: WA
     population: 161791
+    airport: PDX
 - model: register.location
   pk: 146
   fields:
     us_city: Tempe
     us_state: AZ
     population: 161719
+    airport: FNL
 - model: register.location
   pk: 147
   fields:
     us_city: Springfield
     us_state: MO
     population: 159498
+    airport: SGF
 - model: register.location
   pk: 148
   fields:
     us_city: Lancaster
     us_state: CA
     population: 156633
+    airport: WJF
 - model: register.location
   pk: 149
   fields:
     us_city: Eugene
     us_state: OR
     population: 156185
+    airport: EUG
 - model: register.location
   pk: 150
   fields:
     us_city: Pembroke Pines
     us_state: FL
     population: 154750
+    airport: HWO
 - model: register.location
   pk: 151
   fields:
     us_city: Salem
     us_state: OR
     population: 154637
+    airport: SLE
 - model: register.location
   pk: 152
   fields:
     us_city: Cape Coral
     us_state: FL
     population: 154305
+    airport: RSW
 - model: register.location
   pk: 153
   fields:
     us_city: Peoria
     us_state: AZ
     population: 154065
+    airport: PHX
 - model: register.location
   pk: 154
   fields:
     us_city: Sioux Falls
     us_state: SD
     population: 153888
+    airport: FSD
 - model: register.location
   pk: 155
   fields:
     us_city: Springfield
     us_state: MA
     population: 153060
+    airport: BAF
 - model: register.location
   pk: 156
   fields:
     us_city: Elk Grove
     us_state: CA
     population: 153015
+    airport: E27
 - model: register.location
   pk: 157
   fields:
     us_city: Rockford
     us_state: IL
     population: 152871
+    airport: ZRF
 - model: register.location
   pk: 158
   fields:
     us_city: Palmdale
     us_state: CA
     population: 152750
+    airport: PMD
 - model: register.location
   pk: 159
   fields:
     us_city: Corona
     us_state: CA
     population: 152374
+    airport: SNA
 - model: register.location
   pk: 160
   fields:
     us_city: Salinas
     us_state: CA
     population: 150441
+    airport: SNS
 - model: register.location
   pk: 161
   fields:
     us_city: Pomona
     us_state: CA
     population: 149058
+    airport: SNA
 - model: register.location
   pk: 162
   fields:
     us_city: Pasadena
     us_state: TX
     population: 149043
+    airport: HOU
 - model: register.location
   pk: 163
   fields:
     us_city: Joliet
     us_state: IL
     population: 147433
+    airport: JOT
 - model: register.location
   pk: 164
   fields:
     us_city: Paterson
     us_state: NJ
     population: 146199
+    airport: JFK
 - model: register.location
   pk: 165
   fields:
     us_city: Kansas City
     us_state: KS
     population: 145786
+    airport: MCI
 - model: register.location
   pk: 166
   fields:
     us_city: Torrance
     us_state: CA
     population: 145438
+    airport: TOA
 - model: register.location
   pk: 167
   fields:
     us_city: Syracuse
     us_state: NY
     population: 145170
+    airport: SYR
 - model: register.location
   pk: 168
   fields:
     us_city: Bridgeport
     us_state: CT
     population: 144229
+    airport: BDR
 - model: register.location
   pk: 169
   fields:
     us_city: Hayward
     us_state: CA
     population: 144186
+    airport: HWD
 - model: register.location
   pk: 170
   fields:
     us_city: Fort Collins
     us_state: CO
     population: 143986
+    airport: FNL
 - model: register.location
   pk: 171
   fields:
     us_city: Escondido
     us_state: CA
     population: 143911
+    airport: SAN
 - model: register.location
   pk: 172
   fields:
     us_city: Lakewood
     us_state: CO
     population: 142980
+    airport: FTG
 - model: register.location
   pk: 173
   fields:
     us_city: Naperville
     us_state: IL
     population: 141853
+    airport: MDW
 - model: register.location
   pk: 174
   fields:
     us_city: Dayton
     us_state: OH
     population: 141527
+    airport: DAY
 - model: register.location
   pk: 175
   fields:
     us_city: Hollywood
     us_state: FL
     population: 140768
+    airport: FLL
 - model: register.location
   pk: 176
   fields:
     us_city: Sunnyvale
     us_state: CA
     population: 140081
+    airport: SJC
 - model: register.location
   pk: 177
   fields:
     us_city: Alexandria
     us_state: VA
     population: 139966
+    airport: DCA
 - model: register.location
   pk: 178
   fields:
     us_city: Mesquite
     us_state: TX
     population: 139824
+    airport: HQZ
 - model: register.location
   pk: 179
   fields:
     us_city: Hampton
     us_state: VA
     population: 137436
+    airport: PHF
 - model: register.location
   pk: 180
   fields:
     us_city: Pasadena
     us_state: CA
     population: 137122
+    airport: LAX
 - model: register.location
   pk: 181
   fields:
     us_city: Orange
     us_state: CA
     population: 136416
+    airport: SNA
 - model: register.location
   pk: 182
   fields:
     us_city: Savannah
     us_state: GA
     population: 136286
+    airport: SAV
 - model: register.location
   pk: 183
   fields:
     us_city: Cary
     us_state: NC
     population: 135234
+    airport: RDU
 - model: register.location
   pk: 184
   fields:
     us_city: Fullerton
     us_state: CA
     population: 135161
+    airport: FUL
 - model: register.location
   pk: 185
   fields:
     us_city: Warren
     us_state: MI
     population: 134056
+    airport: DTW
 - model: register.location
   pk: 186
   fields:
     us_city: Clarksville
     us_state: TN
     population: 132929
+    airport: CKV
 - model: register.location
   pk: 187
   fields:
     us_city: McKinney
     us_state: TX
     population: 131117
+    airport: TKI
 - model: register.location
   pk: 188
   fields:
     us_city: McAllen
     us_state: TX
     population: 129877
+    airport: MFE
 - model: register.location
   pk: 189
   fields:
     us_city: New Haven
     us_state: CT
     population: 129779
+    airport: HVN
 - model: register.location
   pk: 190
   fields:
     us_city: Sterling Heights
     us_state: MI
     population: 129699
+    airport: DTW
 - model: register.location
   pk: 191
   fields:
     us_city: West Valley City
     us_state: UT
     population: 129480
+    airport: SLC
 - model: register.location
   pk: 192
   fields:
     us_city: Columbia
     us_state: SC
     population: 129272
+    airport: CAE
 - model: register.location
   pk: 193
   fields:
     us_city: Killeen
     us_state: TX
     population: 127921
+    airport: ILE
 - model: register.location
   pk: 194
   fields:
     us_city: Topeka
     us_state: KS
     population: 127473
+    airport: FOE
 - model: register.location
   pk: 195
   fields:
     us_city: Thousand Oaks
     us_state: CA
     population: 126683
+    airport: LAX
 - model: register.location
   pk: 196
   fields:
     us_city: Cedar Rapids
     us_state: IA
     population: 126326
+    airport: CID
 - model: register.location
   pk: 197
   fields:
     us_city: Olathe
     us_state: KS
     population: 125872
+    airport: OJC
 - model: register.location
   pk: 198
   fields:
     us_city: Elizabeth
     us_state: NJ
     population: 124969
+    airport: EWR
 - model: register.location
   pk: 199
   fields:
     us_city: Waco
     us_state: TX
     population: 124805
+    airport: ACT
 - model: register.location
   pk: 200
   fields:
     us_city: Hartford
     us_state: CT
     population: 124775
+    airport: BDL
 - model: register.location
   pk: 201
   fields:
     us_city: Visalia
     us_state: CA
     population: 124442
+    airport: VIS
 - model: register.location
   pk: 202
   fields:
     us_city: Gainesville
     us_state: FL
     population: 124354
+    airport: GNV
 - model: register.location
   pk: 203
   fields:
     us_city: Simi Valley
     us_state: CA
     population: 124237
+    airport: BUR
 - model: register.location
   pk: 204
   fields:
     us_city: Stamford
     us_state: CT
     population: 122643
+    airport: HPN
 - model: register.location
   pk: 205
   fields:
     us_city: Bellevue
     us_state: WA
     population: 122363
+    airport: BFI
 - model: register.location
   pk: 206
   fields:
     us_city: Concord
     us_state: CA
     population: 122067
+    airport: CCR
 - model: register.location
   pk: 207
   fields:
     us_city: Miramar
     us_state: FL
     population: 122041
+    airport: FLL
 - model: register.location
   pk: 208
   fields:
     us_city: Coral Springs
     us_state: FL
     population: 121096
+    airport: FLL
 - model: register.location
   pk: 209
   fields:
     us_city: Lafayette
     us_state: LA
     population: 120623
+    airport: LFT
 - model: register.location
   pk: 210
   fields:
     us_city: Charleston
     us_state: SC
     population: 120083
+    airport: CHS
 - model: register.location
   pk: 211
   fields:
     us_city: Carrollton
     us_state: TX
     population: 119097
+    airport: DFW
 - model: register.location
   pk: 212
   fields:
     us_city: Roseville
     us_state: CA
     population: 118788
+    airport: SMF
 - model: register.location
   pk: 213
   fields:
     us_city: Thornton
     us_state: CO
     population: 118772
+    airport: DEN
 - model: register.location
   pk: 214
   fields:
     us_city: Beaumont
     us_state: TX
     population: 118296
+    airport: BPT
 - model: register.location
   pk: 215
   fields:
     us_city: Allentown
     us_state: PA
     population: 118032
+    airport: ABE
 - model: register.location
   pk: 216
   fields:
     us_city: Surprise
     us_state: AZ
     population: 117517
+    airport: PHX
 - model: register.location
   pk: 217
   fields:
     us_city: Evansville
     us_state: IN
     population: 117429
+    airport: EVV
 - model: register.location
   pk: 218
   fields:
     us_city: Abilene
     us_state: TX
     population: 117063
+    airport: ABI
 - model: register.location
   pk: 219
   fields:
     us_city: Frisco
     us_state: TX
     population: 116989
+    airport: DFW
 - model: register.location
   pk: 220
   fields:
     us_city: Independence
     us_state: MO
     population: 116830
+    airport: MCI
 - model: register.location
   pk: 221
   fields:
     us_city: Santa Clara
     us_state: CA
     population: 116468
+    airport: SJC
 - model: register.location
   pk: 222
   fields:
     us_city: Springfield
     us_state: IL
     population: 116250
+    airport: SPI
 - model: register.location
   pk: 223
   fields:
     us_city: Vallejo
     us_state: CA
     population: 115942
+    airport: OAK
 - model: register.location
   pk: 224
   fields:
     us_city: Victorville
     us_state: CA
     population: 115903
+    airport: VCV
 - model: register.location
   pk: 225
   fields:
     us_city: Athens
     us_state: GA
     population: 115452
+    airport: AHN
 - model: register.location
   pk: 226
   fields:
     us_city: Peoria
     us_state: IL
     population: 115007
+    airport: PIA
 - model: register.location
   pk: 227
   fields:
     us_city: Ann Arbor
     us_state: MI
     population: 113934
+    airport: ARB
 - model: register.location
   pk: 228
   fields:
     us_city: El Monte
     us_state: CA
     population: 113475
+    airport: EMT
 - model: register.location
   pk: 229
   fields:
     us_city: Denton
     us_state: TX
     population: 113383
+    airport: DTO
 - model: register.location
   pk: 230
   fields:
     us_city: Berkeley
     us_state: CA
     population: 112580
+    airport: JBK
 - model: register.location
   pk: 231
   fields:
     us_city: Provo
     us_state: UT
     population: 112488
+    airport: PVU
 - model: register.location
   pk: 232
   fields:
     us_city: Downey
     us_state: CA
     population: 111772
+    airport: LGB
 - model: register.location
   pk: 233
   fields:
     us_city: Midland
     us_state: TX
     population: 111147
+    airport: MAF
 - model: register.location
   pk: 234
   fields:
     us_city: Norman
     us_state: OK
     population: 110925
+    airport: OUN
 - model: register.location
   pk: 235
   fields:
     us_city: Waterbury
     us_state: CT
     population: 110366
+    airport: OXC
 - model: register.location
   pk: 236
   fields:
     us_city: Costa Mesa
     us_state: CA
     population: 109960
+    airport: SNA
 - model: register.location
   pk: 237
   fields:
     us_city: Inglewood
     us_state: CA
     population: 109673
+    airport: LAX
 - model: register.location
   pk: 238
   fields:
     us_city: Manchester
     us_state: NH
     population: 109565
+    airport: MHT
 - model: register.location
   pk: 239
   fields:
     us_city: Lansing
     us_state: MI
     population: 109563
+    airport: LAN
 - model: register.location
   pk: 240
   fields:
     us_city: Murfreesboro
     us_state: TN
     population: 108755
+    airport: MBT
 - model: register.location
   pk: 241
   fields:
     us_city: Columbia
     us_state: MO
     population: 108500
+    airport: COU
 - model: register.location
   pk: 242
   fields:
     us_city: Elgin
     us_state: IL
     population: 108188
+    airport: CMI
 - model: register.location
   pk: 243
   fields:
     us_city: Clearwater
     us_state: FL
     population: 107685
+    airport: PIE
 - model: register.location
   pk: 244
   fields:
     us_city: Miami Gardens
     us_state: FL
     population: 107167
+    airport: OPF
 - model: register.location
   pk: 245
   fields:
     us_city: Rochester
     us_state: MN
     population: 106769
+    airport: RST
 - model: register.location
   pk: 246
   fields:
     us_city: Pueblo
     us_state: CO
     population: 106595
+    airport: PUB
 - model: register.location
   pk: 247
   fields:
     us_city: Lowell
     us_state: MA
     population: 106519
+    airport: BOS
 - model: register.location
   pk: 248
   fields:
     us_city: Wilmington
     us_state: NC
     population: 106476
+    airport: ILM
 - model: register.location
   pk: 249
   fields:
     us_city: Arvada
     us_state: CO
     population: 106433
+    airport: DEN
 - model: register.location
   pk: 250
   fields:
     us_city: Ventura
     us_state: CA
     population: 106433
+    airport: OXR
 - model: register.location
   pk: 251
   fields:
     us_city: Westminster
     us_state: CO
     population: 106114
+    airport: DEN
 - model: register.location
   pk: 252
   fields:
     us_city: West Covina
     us_state: CA
     population: 106098
+    airport: LGB
 - model: register.location
   pk: 253
   fields:
     us_city: Gresham
     us_state: OR
     population: 105594
+    airport: PDX
 - model: register.location
   pk: 254
   fields:
     us_city: Fargo
     us_state: ND
     population: 105549
+    airport: FAR
 - model: register.location
   pk: 255
   fields:
     us_city: Norwalk
     us_state: CA
     population: 105549
+    airport: LGB
 - model: register.location
   pk: 256
   fields:
     us_city: Carlsbad
     us_state: CA
     population: 105328
+    airport: CLD
 - model: register.location
   pk: 257
   fields:
     us_city: Fairfield
     us_state: CA
     population: 105321
+    airport: OAK
 - model: register.location
   pk: 258
   fields:
     us_city: Cambridge
     us_state: MA
     population: 105162
+    airport: BOS
 - model: register.location
   pk: 259
   fields:
     us_city: Wichita Falls
     us_state: TX
     population: 104553
+    airport: SPS
 - model: register.location
   pk: 260
   fields:
     us_city: High Point
     us_state: NC
     population: 104371
+    airport: GSO
 - model: register.location
   pk: 261
   fields:
     us_city: Billings
     us_state: MT
     population: 104170
+    airport: BIL
 - model: register.location
   pk: 262
   fields:
     us_city: Green Bay
     us_state: WI
     population: 104057
+    airport: GRB
 - model: register.location
   pk: 263
   fields:
     us_city: West Jordan
     us_state: UT
     population: 103712
+    airport: SLC
 - model: register.location
   pk: 264
   fields:
     us_city: Richmond
     us_state: CA
     population: 103701
+    airport: OAK
 - model: register.location
   pk: 265
   fields:
     us_city: Murrieta
     us_state: CA
     population: 103466
+    airport: LAX
 - model: register.location
   pk: 266
   fields:
     us_city: Burbank
     us_state: CA
     population: 103340
+    airport: BUR
 - model: register.location
   pk: 267
   fields:
     us_city: Palm Bay
     us_state: FL
     population: 103190
+    airport: MLB
 - model: register.location
   pk: 268
   fields:
     us_city: Everett
     us_state: WA
     population: 103019
+    airport: PAE
 - model: register.location
   pk: 269
   fields:
     us_city: Flint
     us_state: MI
     population: 102434
+    airport: FNT
 - model: register.location
   pk: 270
   fields:
     us_city: Antioch
     us_state: CA
     population: 102372
+    airport: SFO
 - model: register.location
   pk: 271
   fields:
     us_city: Erie
     us_state: PA
     population: 101786
+    airport: ERI
 - model: register.location
   pk: 272
   fields:
     us_city: South Bend
     us_state: IN
     population: 101168
+    airport: SBN
 - model: register.location
   pk: 273
   fields:
     us_city: Daly City
     us_state: CA
     population: 101123
+    airport: SFO
 - model: register.location
   pk: 274
   fields:
     us_city: Centennial
     us_state: CO
     population: 100377
+    airport: APA
 - model: register.location
   pk: 275
   fields:
     us_city: Temecula
     us_state: CA
     population: 100097
+    airport: SNA
