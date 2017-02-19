@@ -1,276 +1,276 @@
 us_city,full_us_state,us_state,population,density,"City,State",airport
-New York,New York,NY,8175133,26821.3,"New York,NY",NYC
-Los Angeles,California,CA,3792621,8092.3,"Los Angeles,CA",LAX
-Chicago,Illinois,IL,2695598,11841.8,"Chicago,IL",CGX
-Houston,Texas,TX,2099451,3501.5,"Houston,TX",HOU
-Philadelphia,Pennsylvania,PA,1526006,11379.5,"Philadelphia,PA",PHL
-Phoenix,Arizona,AZ,1445632,2797.8,"Phoenix,AZ",PHX
-San Antonio,Texas,TX,1327407,2879.8,"San Antonio,TX",SAT
-San Diego,California,CA,1307402,4020.4,"San Diego,CA",SAN
-Dallas,Texas,TX,1197816,3517.6,"Dallas,TX",DFW
-San Jose,California,CA,945942,5358.6,"San Jose,CA",SJC
-Jacksonville,Florida,FL,821784,1100.1,"Jacksonville,FL",JAX
-Indianapolis,Indiana,IN,820445,2270,"Indianapolis,IN",IND
-San Francisco,California,CA,805235,17179.2,"San Francisco,CA",SFO
-Austin,Texas,TX,790390,2653.2,"Austin,TX",AUS
-Columbus,Ohio,OH,787033,3624.1,"Columbus,OH",CMH
-Fort Worth,Texas,TX,741206,2181.2,"Fort Worth,TX",DFW
-Charlotte,North Carolina,NC,731424,2457.1,"Charlotte,NC",CLT
-Detroit,Michigan,MI,713777,5144.3,"Detroit,MI",DTT
-El Paso,Texas,TX,649121,2543.2,"El Paso,TX",ELP
-Memphis,Tennessee,TN,646889,2053.3,"Memphis,TN",MEM
-Baltimore,Maryland,MD,620961,7671.5,"Baltimore,MD",BWI
-Boston,Massachusetts,MA,617594,12792.7,"Boston,MA",BOS
-Seattle,Washington,WA,608660,7250.9,"Seattle,WA",LKE
-Washington,District of Columbia,DC,601723,9856.5,"Washington,DC",WAS
-Nashville,Tennessee,TN,601222,1265.4,"Nashville,TN",BNA
-Denver,Colorado,CO,600158,3922.6,"Denver,CO",DEN
-Louisville,Kentucky,KY,597337,1836.6,"Louisville,KY",SDF
-Milwaukee,Wisconsin,WI,594833,6184.7,"Milwaukee,WI",MKE
-Portland,Oregon,OR,583776,4375.3,"Portland,OR",PDX
-Las Vegas,Nevada,NV,583756,4298.2,"Las Vegas,NV",LAS
-Oklahoma City,Oklahoma,OK,579999,956.4,"Oklahoma City,OK",OKC
-Albuquerque,New Mexico,NM,545852,2907.6,"Albuquerque,NM",ABQ
-Tucson,Arizona,AZ,520116,2294.2,"Tucson,AZ",TUS
-Fresno,California,CA,494665,4418.4,"Fresno,CA",FAT
-Sacramento,California,CA,466488,4764.2,"Sacramento,CA",SMF
-Long Beach,California,CA,462257,9191.2,"Long Beach,CA",LGB
-Kansas City,Missouri,MO,459787,1459.9,"Kansas City,MO",MCI
-Mesa,Arizona,AZ,439041,3217.5,"Mesa,AZ",AZA
-Virginia Beach,Virginia,VA,437994,1758.9,"Virginia Beach,VA",ORF
-Atlanta,Georgia,GA,420003,3154.3,"Atlanta,GA",ATL
-Colorado Springs,Colorado,CO,416427,2140.6,"Colorado Springs,CO",COS
-Omaha,Nebraska,NE,408958,3217.9,"Omaha,NE",OMA
-Raleigh,North Carolina,NC,403892,2826.3,"Raleigh,NC",RDU
-Miami,Florida,FL,399457,11135.9,"Miami,FL",MIA
-Cleveland,Ohio,OH,396815,5107.2,"Cleveland,OH",CLE
-Tulsa,Oklahoma,OK,391906,1991.9,"Tulsa,OK",TUL
-Oakland,California,CA,390724,7004,"Oakland,CA",OAK
-Minneapolis,Minnesota,MN,382578,7088.3,"Minneapolis,MN",MSP
-Wichita,Kansas,KS,382368,2400.4,"Wichita,KS",ICT
-Arlington,Texas,TX,365438,3811.3,"Arlington,TX",GKY
-Bakersfield,California,CA,347483,2444.2,"Bakersfield,CA",BFL
-New Orleans,Louisiana,LA,343829,2029.4,"New Orleans,LA",MSY
-Honolulu,Hawaii,HI,337256,5572.6,"Honolulu,HI",HNL
-Anaheim,California,CA,336265,6747.5,"Anaheim,CA",SNA
-Tampa,Florida,FL,335709,2960.2,"Tampa,FL",TPA
-Aurora,Colorado,CO,325078,2100.9,"Aurora,CO",FTG
-Santa Ana,California,CA,324528,11900.8,"Santa Ana,CA",SNA
-St. Louis,Missouri,MO,319294,5157.5,"St. Louis,MO",STL
-Pittsburgh,Pennsylvania,PA,305704,5521.4,"Pittsburgh,PA",PIT
-Corpus Christi,Texas,TX,305215,1900.3,"Corpus Christi,TX",CRP
-Riverside,California,CA,303871,3745,"Riverside,CA",RAL
-Cincinnati,Ohio,OH,296943,3809.8,"Cincinnati,OH",CVG
-Lexington,Kentucky,KY,295803,1042.8,"Lexington,KY",LEX
-Anchorage,Alaska,AK,291826,171.2,"Anchorage,AK",ANC
-Stockton,California,CA,291707,4730.2,"Stockton,CA",SCK
-Toledo,Ohio,OH,287208,3559.3,"Toledo,OH",TOL
-St. Paul,Minnesota,MN,285068,5484.3,"St. Paul,MN",MSP
-Newark,New Jersey,NJ,277140,11458.3,"Newark,NJ",EWR
-Greensboro,North Carolina,NC,269666,2131.5,"Greensboro,NC",GSO
-Buffalo,New York,NY,261310,6470.6,"Buffalo,NY",BUF
-Plano,Texas,TX,259841,3630,"Plano,TX",DFW
-Lincoln,Nebraska,NE,258379,2899.4,"Lincoln,NE",LNK
-Henderson,Nevada,NV,257729,2392.3,"Henderson,NV",HND
-Fort Wayne,Indiana,IN,253691,2293.4,"Fort Wayne,IN",FWA
-Jersey City,New Jersey,NJ,247597,16736.6,"Jersey City,NJ",ACY
-St. Petersburg,Florida,FL,244769,3964.4,"St. Petersburg,FL",PIE
-Chula Vista,California,CA,243916,4914.6,"Chula Vista,CA",SAN
-Norfolk,Virginia,VA,242803,4486.3,"Norfolk,VA",ORF
-Orlando,Florida,FL,238300,2327.3,"Orlando,FL",ORL
-Chandler,Arizona,AZ,236123,3665.8,"Chandler,AZ",CHD
-Laredo,Texas,TX,236091,2655.4,"Laredo,TX",LRD
-Madison,Wisconsin,WI,233209,3037,"Madison,WI",MSN
-Winston Salem,North Carolina,NC,229617,1733.6,"Winston Salem,NC",INT
-Lubbock,Texas,TX,229573,1875.4,"Lubbock,TX",LBB
-Baton Rouge,Louisiana,LA,229493,2982.5,"Baton Rouge,LA",BTR
-Durham,North Carolina,NC,228330,2126.6,"Durham,NC",RDU
-Garland,Texas,TX,226876,3974.4,"Garland,TX",DFW
-Glendale,Arizona,AZ,226721,3780.2,"Glendale,AZ",AZA
-Reno,Nevada,NV,225221,2186.4,"Reno,NV",RNO
-Hialeah,Florida,FL,224669,10474.2,"Hialeah,FL",FLL
-Chesapeake,Virginia,VA,222209,652,"Chesapeake,VA",CPK
-Scottsdale,Arizona,AZ,217385,1182,"Scottsdale,AZ",SDL
-North Las Vegas,Nevada,NV,216961,2140.8,"North Las Vegas,NV",VGT
-Irving,Texas,TX,216290,3227.4,"Irving,TX",DFW
-Fremont,California,CA,214089,2763.9,"Fremont,CA",SJC
-Irvine,California,CA,212375,3212.6,"Irvine,CA",SNA
-Birmingham,Alabama,AL,212237,1453,"Birmingham,AL",BHM
-Rochester,New York,NY,210565,5884.9,"Rochester,NY",ROC
-San Bernardino,California,CA,209924,3546,"San Bernardino,CA",SBD
-Spokane,Washington,WA,208916,3526.2,"Spokane,WA",GEG
-Gilbert,Arizona,AZ,208453,3067.2,"Gilbert,AZ",IWA
-Arlington,Virginia,VA,207627,7993.5,"Arlington,VA",DCA
-Montgomery,Alabama,AL,205764,1289.5,"Montgomery,AL",MGM
-Boise,Idaho,ID,205671,2591.5,"Boise,ID",BOI
-Richmond,Virginia,VA,204214,3414.7,"Richmond,VA",RIC
-Des Moines,Iowa,IA,203433,2515.6,"Des Moines,IA",DSM
-Modesto,California,CA,201165,5456.5,"Modesto,CA",MOD
-Fayetteville,North Carolina,NC,200654,1375.2,"Fayetteville,NC",FAY
-Shreveport,Louisiana,LA,199311,1891.4,"Shreveport,LA",SHV
-Akron,Ohio,OH,199110,3209.8,"Akron,OH",CAK
-Tacoma,Washington,WA,198397,3990.2,"Tacoma,WA",SEA
-Aurora,Illinois,IL,197899,4404,"Aurora,IL",AUZ
-Oxnard,California,CA,197899,7358.4,"Oxnard,CA",OXR
-Fontana,California,CA,196069,4620.8,"Fontana,CA",SNA
-Yonkers,New York,NY,195976,10880.3,"Yonkers,NY",JFK
-Augusta,Georgia,GA,195844,647.5,"Augusta,GA",AGS
-Mobile,Alabama,AL,195111,1402.6,"Mobile,AL",MOB
-Little Rock,Arkansas,AR,193524,1623.5,"Little Rock,AR",LIT
-Moreno Valley,California,CA,193365,3771.2,"Moreno Valley,CA",SBD
-Glendale,California,CA,191719,6295.5,"Glendale,CA",BUR
-Amarillo,Texas,TX,190695,1917,"Amarillo,TX",AMA
-Huntington Beach,California,CA,189992,7102.9,"Huntington Beach,CA",SNA
-Columbus,Georgia,GA,189885,877.5,"Columbus,GA",CSG
-Grand Rapids,Michigan,MI,188040,4235.6,"Grand Rapids,MI",GRR
-Salt Lake City,Utah,UT,186440,1678,"Salt Lake City,UT",SLC
-Tallahassee,Florida,FL,181376,1809.3,"Tallahassee,FL",TLH
-Worcester,Massachusetts,MA,181045,4844.5,"Worcester,MA",ORH
-Newport News,Virginia,VA,180719,2630,"Newport News,VA",PHF
-Huntsville,Alabama,AL,180105,861.5,"Huntsville,AL",HSV
-Knoxville,Tennessee,TN,178874,1815.6,"Knoxville,TN",TYS
-Providence,Rhode Island,RI,178042,9676.1,"Providence,RI",PVD
-Santa Clarita,California,CA,176320,3344.7,"Santa Clarita,CA",PMD
-Grand Prairie,Texas,TX,175396,2432.5,"Grand Prairie,TX",GPM
-Brownsville,Texas,TX,175023,1322.6,"Brownsville,TX",BRO
-Jackson,Mississippi,MS,173514,1562.5,"Jackson,MS",JAN
-Overland Park,Kansas,KS,173372,2316.5,"Overland Park,KS",MCI
-Garden Grove,California,CA,170883,9524.6,"Garden Grove,CA",SNA
-Santa Rosa,California,CA,167815,4063.9,"Santa Rosa,CA",STS
-Chattanooga,Tennessee,TN,167674,1222.5,"Chattanooga,TN",CHA
-Oceanside,California,CA,167086,4052.1,"Oceanside,CA",CLD
-Fort Lauderdale,Florida,FL,165521,4761.1,"Fort Lauderdale,FL",FLL
-Rancho Cucamonga,California,CA,165269,4147.2,"Rancho Cucamonga,CA",LAX
-Port St. Lucie,Florida,FL,164603,1444.5,"Port St. Lucie,FL",FPR
-Ontario,California,CA,163924,3282.4,"Ontario,CA",ONT
-Vancouver,Washington,WA,161791,3482.6,"Vancouver,WA",PDX
-Tempe,Arizona,AZ,161719,4050.1,"Tempe,AZ",FNL
-Springfield,Missouri,MO,159498,1951.8,"Springfield,MO",SGF
-Lancaster,California,CA,156633,1661.3,"Lancaster,CA",WJF
-Eugene,Oregon,OR,156185,3572.2,"Eugene,OR",EUG
-Pembroke Pines,Florida,FL,154750,4671.1,"Pembroke Pines,FL",HWO
-Salem,Oregon,OR,154637,3228.6,"Salem,OR",SLE
-Cape Coral,Florida,FL,154305,1460.2,"Cape Coral,FL",RSW
-Peoria,Arizona,AZ,154065,883.4,"Peoria,AZ",PHX
-Sioux Falls,South Dakota,SD,153888,2109.1,"Sioux Falls,SD",FSD
-Springfield,Massachusetts,MA,153060,4803.4,"Springfield,MA",BAF
-Elk Grove,California,CA,153015,3626.8,"Elk Grove,CA",E27
-Rockford,Illinois,IL,152871,2502.7,"Rockford,IL",ZRF
-Palmdale,California,CA,152750,1441.6,"Palmdale,CA",PMD
-Corona,California,CA,152374,3924.6,"Corona,CA",SNA
-Salinas,California,CA,150441,6490.5,"Salinas,CA",SNS
-Pomona,California,CA,149058,6494.5,"Pomona,CA",SNA
-Pasadena,Texas,TX,149043,3485.4,"Pasadena,TX",HOU
-Joliet,Illinois,IL,147433,2373.6,"Joliet,IL",JOT
-Paterson,New Jersey,NJ,146199,17346.3,"Paterson,NJ",JFK
-Kansas City,Kansas,KS,145786,1168.1,"Kansas City,KS",MCI
-Torrance,California,CA,145438,7102.2,"Torrance,CA",TOA
-Syracuse,New York,NY,145170,5796.7,"Syracuse,NY",SYR
-Bridgeport,Connecticut,CT,144229,9029,"Bridgeport,CT",BDR
-Hayward,California,CA,144186,3181.3,"Hayward,CA",HWD
-Fort Collins,Colorado,CO,143986,2652.8,"Fort Collins,CO",FNL
-Escondido,California,CA,143911,3909.3,"Escondido,CA",SAN
-Lakewood,Colorado,CO,142980,3334.4,"Lakewood,CO",FTG
-Naperville,Illinois,IL,141853,3658.9,"Naperville,IL",MDW
-Dayton,Ohio,OH,141527,2543.1,"Dayton,OH",DAY
-Hollywood,Florida,FL,140768,5143.8,"Hollywood,FL",FLL
-Sunnyvale,California,CA,140081,6370.9,"Sunnyvale,CA",SJC
-Alexandria,Virginia,VA,139966,9314.3,"Alexandria,VA",DCA
-Mesquite,Texas,TX,139824,3038.3,"Mesquite,TX",HQZ
-Hampton,Virginia,VA,137436,2673.2,"Hampton,VA",PHF
-Pasadena,California,CA,137122,5969.6,"Pasadena,CA",LAX
-Orange,California,CA,136416,5501.3,"Orange,CA",SNA
-Savannah,Georgia,GA,136286,1321.2,"Savannah,GA",SAV
-Cary,North Carolina,NC,135234,2488.4,"Cary,NC",RDU
-Fullerton,California,CA,135161,6046.7,"Fullerton,CA",FUL
-Warren,Michigan,MI,134056,3899.2,"Warren,MI",DTW
-Clarksville,Tennessee,TN,132929,1361.9,"Clarksville,TN",CKV
-McKinney,Texas,TX,131117,2107.7,"McKinney,TX",TKI
-McAllen,Texas,TX,129877,2686.5,"McAllen,TX",MFE
-New Haven,Connecticut,CT,129779,6948,"New Haven,CT",HVN
-Sterling Heights,Michigan,MI,129699,3552.9,"Sterling Heights,MI",DTW
-West Valley City,Utah,UT,129480,3641.5,"West Valley City,UT",SLC
-Columbia,South Carolina,SC,129272,977.8,"Columbia,SC",CAE
-Killeen,Texas,TX,127921,2387.5,"Killeen,TX",ILE
-Topeka,Kansas,KS,127473,2118.6,"Topeka,KS",FOE
-Thousand Oaks,California,CA,126683,2302,"Thousand Oaks,CA",LAX
-Cedar Rapids,Iowa,IA,126326,1784.3,"Cedar Rapids,IA",CID
-Olathe,Kansas,KS,125872,2109.8,"Olathe,KS",OJC
-Elizabeth,New Jersey,NJ,124969,10144.1,"Elizabeth,NJ",EWR
-Waco,Texas,TX,124805,1402.9,"Waco,TX",ACT
-Hartford,Connecticut,CT,124775,7178.9,"Hartford,CT",BDL
-Visalia,California,CA,124442,3433.3,"Visalia,CA",VIS
-Gainesville,Florida,FL,124354,2028.5,"Gainesville,FL",GNV
-Simi Valley,California,CA,124237,2995.1,"Simi Valley,CA",BUR
-Stamford,Connecticut,CT,122643,3258.4,"Stamford,CT",HPN
-Bellevue,Washington,WA,122363,3827.7,"Bellevue,WA",BFI
-Concord,California,CA,122067,3996.2,"Concord,CA",CCR
-Miramar,Florida,FL,122041,4134.1,"Miramar,FL",FLL
-Coral Springs,Florida,FL,121096,5089.8,"Coral Springs,FL",FLL
-Lafayette,Louisiana,LA,120623,2450.1,"Lafayette,LA",LFT
-Charleston,South Carolina,SC,120083,1101.9,"Charleston,SC",CHS
-Carrollton,Texas,TX,119097,3281.3,"Carrollton,TX",DFW
-Roseville,California,CA,118788,3279.5,"Roseville,CA",SMF
-Thornton,Colorado,CO,118772,3408.8,"Thornton,CO",DEN
-Beaumont,Texas,TX,118296,1428.7,"Beaumont,TX",BPT
-Allentown,Pennsylvania,PA,118032,6727.1,"Allentown,PA",ABE
-Surprise,Arizona,AZ,117517,1111.3,"Surprise,AZ",PHX
-Evansville,Indiana,IN,117429,2659.6,"Evansville,IN",EVV
-Abilene,Texas,TX,117063,1096.2,"Abilene,TX",ABI
-Frisco,Texas,TX,116989,1892.9,"Frisco,TX",DFW
-Independence,Missouri,MO,116830,1506.2,"Independence,MO",MCI
-Santa Clara,California,CA,116468,6327.3,"Santa Clara,CA",SJC
-Springfield,Illinois,IL,116250,1954.5,"Springfield,IL",SPI
-Vallejo,California,CA,115942,3780.1,"Vallejo,CA",OAK
-Victorville,California,CA,115903,1583.9,"Victorville,CA",VCV
-Athens,Georgia,GA,115452,992.2,"Athens,GA",AHN
-Peoria,Illinois,IL,115007,2395.6,"Peoria,IL",PIA
-Ann Arbor,Michigan,MI,113934,4094,"Ann Arbor,MI",ARB
-El Monte,California,CA,113475,11866.9,"El Monte,CA",EMT
-Denton,Texas,TX,113383,1289.2,"Denton,TX",DTO
-Berkeley,California,CA,112580,10752.4,"Berkeley,CA",JBK
-Provo,Utah,UT,112488,2699.3,"Provo,UT",PVU
-Downey,California,CA,111772,9008,"Downey,CA",LGB
-Midland,Texas,TX,111147,1542.2,"Midland,TX",MAF
-Norman,Oklahoma,OK,110925,620.5,"Norman,OK",OUN
-Waterbury,Connecticut,CT,110366,3869.9,"Waterbury,CT",OXC
-Costa Mesa,California,CA,109960,7024.6,"Costa Mesa,CA",SNA
-Inglewood,California,CA,109673,12094.7,"Inglewood,CA",LAX
-Manchester,New Hampshire,NH,109565,3310.1,"Manchester,NH",MHT
-Lansing,Michigan,MI,109563,3303.2,"Lansing,MI",LAN
-Murfreesboro,Tennessee,TN,108755,1965,"Murfreesboro,TN",MBT
-Columbia,Missouri,MO,108500,1720.1,"Columbia,MO",COU
-Elgin,Illinois,IL,108188,2911.1,"Elgin,IL",CMI
-Clearwater,Florida,FL,107685,4212.8,"Clearwater,FL",PIE
-Miami Gardens,Florida,FL,107167,5878.4,"Miami Gardens,FL",OPF
-Rochester,Minnesota,MN,106769,1956,"Rochester,MN",RST
-Pueblo,Colorado,CO,106595,1987.2,"Pueblo,CO",PUB
-Lowell,Massachusetts,MA,106519,7842.1,"Lowell,MA",BOS
-Wilmington,North Carolina,NC,106476,2067.8,"Wilmington,NC",ILM
-Arvada,Colorado,CO,106433,3028.6,"Arvada,CO",DEN
-Ventura,California,CA,106433,4915,"Ventura,CA",OXR
-Westminster,Colorado,CO,106114,3363.3,"Westminster,CO",DEN
-West Covina,California,CA,106098,6614.3,"West Covina,CA",LGB
-Gresham,Oregon,OR,105594,4551.3,"Gresham,OR",PDX
-Fargo,North Dakota,ND,105549,2162,"Fargo,ND",FAR
-Norwalk,California,CA,105549,10873.5,"Norwalk,CA",LGB
-Carlsbad,California,CA,105328,2792.2,"Carlsbad,CA",CLD
-Fairfield,California,CA,105321,2816.8,"Fairfield,CA",OAK
-Cambridge,Massachusetts,MA,105162,16469.1,"Cambridge,MA",BOS
-Wichita Falls,Texas,TX,104553,1449.3,"Wichita Falls,TX",SPS
-High Point,North Carolina,NC,104371,1939.9,"High Point,NC",GSO
-Billings,Montana,MT,104170,2399.5,"Billings,MT",BIL
-Green Bay,Wisconsin,WI,104057,2288.6,"Green Bay,WI",GRB
-West Jordan,Utah,UT,103712,3195.4,"West Jordan,UT",SLC
-Richmond,California,CA,103701,3448.9,"Richmond,CA",OAK
-Murrieta,California,CA,103466,3081.4,"Murrieta,CA",LAX
-Burbank,California,CA,103340,5959.3,"Burbank,CA",BUR
-Palm Bay,Florida,FL,103190,1570.6,"Palm Bay,FL",MLB
-Everett,Washington,WA,103019,3080,"Everett,WA",PAE
-Flint,Michigan,MI,102434,3065.4,"Flint,MI",FNT
-Antioch,California,CA,102372,3611.2,"Antioch,CA",SFO
-Erie,Pennsylvania,PA,101786,5334.5,"Erie,PA",ERI
-South Bend,Indiana,IN,101168,2440.3,"South Bend,IN",SBN
-Daly City,California,CA,101123,13195,"Daly City,CA",SFO
-Centennial,Colorado,CO,100377,3494.8,"Centennial,CO",APA
-Temecula,California,CA,100097,3319.8,"Temecula,CA",SNA
+New York,New York,NY,8175133,26821.3,"New York,NY",KNYC
+Los Angeles,California,CA,3792621,8092.3,"Los Angeles,CA",KCQT
+Chicago,Illinois,IL,2695598,11841.8,"Chicago,IL",KORD
+Houston,Texas,TX,2099451,3501.5,"Houston,TX",KMCJ
+Philadelphia,Pennsylvania,PA,1526006,11379.5,"Philadelphia,PA",KPHL
+Phoenix,Arizona,AZ,1445632,2797.8,"Phoenix,AZ",KPHX
+San Antonio,Texas,TX,1327407,2879.8,"San Antonio,TX",KSAT
+San Diego,California,CA,1307402,4020.4,"San Diego,CA",KSAN
+Dallas,Texas,TX,1197816,3517.6,"Dallas,TX",KDAL
+San Jose,California,CA,945942,5358.6,"San Jose,CA",KSJC
+Jacksonville,Florida,FL,821784,1100.1,"Jacksonville,FL",KNIP
+Indianapolis,Indiana,IN,820445,2270,"Indianapolis,IN",KEYE
+San Francisco,California,CA,805235,17179.2,"San Francisco,CA",KSFO
+Austin,Texas,TX,790390,2653.2,"Austin,TX",KATT
+Columbus,Ohio,OH,787033,3624.1,"Columbus,OH",KOSU
+Fort Worth,Texas,TX,741206,2181.2,"Fort Worth,TX",KFTW
+Charlotte,North Carolina,NC,731424,2457.1,"Charlotte,NC",KCLT
+Detroit,Michigan,MI,713777,5144.3,"Detroit,MI",KDET
+El Paso,Texas,TX,649121,2543.2,"El Paso,TX",KELP
+Memphis,Tennessee,TN,646889,2053.3,"Memphis,TN",KMEM
+Baltimore,Maryland,MD,620961,7671.5,"Baltimore,MD",KDMH
+Boston,Massachusetts,MA,617594,12792.7,"Boston,MA",KBOS
+Seattle,Washington,WA,608660,7250.9,"Seattle,WA",KBFI
+Washington,District of Columbia,DC,601723,9856.5,"Washington,DC",KDCA
+Nashville,Tennessee,TN,601222,1265.4,"Nashville,TN",KBNA
+Denver,Colorado,CO,600158,3922.6,"Denver,CO",KBKF
+Louisville,Kentucky,KY,597337,1836.6,"Louisville,KY",KLOU
+Milwaukee,Wisconsin,WI,594833,6184.7,"Milwaukee,WI",KMKE
+Portland,Oregon,OR,583776,4375.3,"Portland,OR",KPDX
+Las Vegas,Nevada,NV,583756,4298.2,"Las Vegas,NV",KVGT
+Oklahoma City,Oklahoma,OK,579999,956.4,"Oklahoma City,OK",KOKC
+Albuquerque,New Mexico,NM,545852,2907.6,"Albuquerque,NM",KABQ
+Tucson,Arizona,AZ,520116,2294.2,"Tucson,AZ",KDMA
+Fresno,California,CA,494665,4418.4,"Fresno,CA",KFAT
+Sacramento,California,CA,466488,4764.2,"Sacramento,CA",KSAC
+Long Beach,California,CA,462257,9191.2,"Long Beach,CA",KLGB
+Kansas City,Missouri,MO,459787,1459.9,"Kansas City,MO",KNKA
+Mesa,Arizona,AZ,439041,3217.5,"Mesa,AZ",KFFZ
+Virginia Beach,Virginia,VA,437994,1758.9,"Virginia Beach,VA",KNTU
+Atlanta,Georgia,GA,420003,3154.3,"Atlanta,GA",KFTY
+Colorado Springs,Colorado,CO,416427,2140.6,"Colorado Springs,CO",KCOS
+Omaha,Nebraska,NE,408958,3217.9,"Omaha,NE",KOMA
+Raleigh,North Carolina,NC,403892,2826.3,"Raleigh,NC",KRDU
+Miami,Florida,FL,399457,11135.9,"Miami,FL",KMIA
+Cleveland,Ohio,OH,396815,5107.2,"Cleveland,OH",KBKL
+Tulsa,Oklahoma,OK,391906,1991.9,"Tulsa,OK",KTUL
+Oakland,California,CA,390724,7004,"Oakland,CA",KOAK
+Minneapolis,Minnesota,MN,382578,7088.3,"Minneapolis,MN",KMIC
+Wichita,Kansas,KS,382368,2400.4,"Wichita,KS",KICT
+Arlington,Texas,TX,365438,3811.3,"Arlington,TX",KGKY
+Bakersfield,California,CA,347483,2444.2,"Bakersfield,CA",KBFL
+New Orleans,Louisiana,LA,343829,2029.4,"New Orleans,LA",KAUD
+Honolulu,Hawaii,HI,337256,5572.6,"Honolulu,HI",PHNL
+Anaheim,California,CA,336265,6747.5,"Anaheim,CA",KFUL
+Tampa,Florida,FL,335709,2960.2,"Tampa,FL",KTPF
+Aurora,Colorado,CO,325078,2100.9,"Aurora,CO",KBKF
+Santa Ana,California,CA,324528,11900.8,"Santa Ana,CA",KSNA
+St. Louis,Missouri,MO,319294,5157.5,"St. Louis,MO",KCPS
+Pittsburgh,Pennsylvania,PA,305704,5521.4,"Pittsburgh,PA",KAGC
+Corpus Christi,Texas,TX,305215,1900.3,"Corpus Christi,TX",KCRP
+Riverside,California,CA,303871,3745,"Riverside,CA",KRAL
+Cincinnati,Ohio,OH,296943,3809.8,"Cincinnati,OH",KLUK
+Lexington,Kentucky,KY,295803,1042.8,"Lexington,KY",KLEX
+Anchorage,Alaska,AK,291826,171.2,"Anchorage,AK",PAMR
+Stockton,California,CA,291707,4730.2,"Stockton,CA",KSCK
+Toledo,Ohio,OH,287208,3559.3,"Toledo,OH",KTDZ
+St. Paul,Minnesota,MN,285068,5484.3,"St. Paul,MN",KSTP
+Newark,New Jersey,NJ,277140,11458.3,"Newark,NJ",KEWR
+Greensboro,North Carolina,NC,269666,2131.5,"Greensboro,NC",KGSO
+Buffalo,New York,NY,261310,6470.6,"Buffalo,NY",KBUF
+Plano,Texas,TX,259841,3630,"Plano,TX",KADS
+Lincoln,Nebraska,NE,258379,2899.4,"Lincoln,NE",KLNK
+Henderson,Nevada,NV,257729,2392.3,"Henderson,NV",KBVU
+Fort Wayne,Indiana,IN,253691,2293.4,"Fort Wayne,IN",KFWA
+Jersey City,New Jersey,NJ,247597,16736.6,"Jersey City,NJ",KJRB
+St. Petersburg,Florida,FL,244769,3964.4,"St. Petersburg,FL",KSPG
+Chula Vista,California,CA,243916,4914.6,"Chula Vista,CA",KNRS
+Norfolk,Virginia,VA,242803,4486.3,"Norfolk,VA",KORF
+Orlando,Florida,FL,238300,2327.3,"Orlando,FL",KORL
+Chandler,Arizona,AZ,236123,3665.8,"Chandler,AZ",KCHD
+Laredo,Texas,TX,236091,2655.4,"Laredo,TX",KLRD
+Madison,Wisconsin,WI,233209,3037,"Madison,WI",KMSN
+Winston Salem,North Carolina,NC,229617,1733.6,"Winston Salem,NC",KINT
+Lubbock,Texas,TX,229573,1875.4,"Lubbock,TX",KLBB
+Baton Rouge,Louisiana,LA,229493,2982.5,"Baton Rouge,LA",KBTR
+Durham,North Carolina,NC,228330,2126.6,"Durham,NC",KRDU
+Garland,Texas,TX,226876,3974.4,"Garland,TX",KF46
+Glendale,Arizona,AZ,226721,3780.2,"Glendale,AZ",KGEU
+Reno,Nevada,NV,225221,2186.4,"Reno,NV",KRNO
+Hialeah,Florida,FL,224669,10474.2,"Hialeah,FL",KOPF
+Chesapeake,Virginia,VA,222209,652,"Chesapeake,VA",KCPK
+Scottsdale,Arizona,AZ,217385,1182,"Scottsdale,AZ",KSDL
+North Las Vegas,Nevada,NV,216961,2140.8,"North Las Vegas,NV",KVGT
+Irving,Texas,TX,216290,3227.4,"Irving,TX",KDAL
+Fremont,California,CA,214089,2763.9,"Fremont,CA",KPAO
+Irvine,California,CA,212375,3212.6,"Irvine,CA",KSNA
+Birmingham,Alabama,AL,212237,1453,"Birmingham,AL",KBHM
+Rochester,New York,NY,210565,5884.9,"Rochester,NY",KROC
+San Bernardino,California,CA,209924,3546,"San Bernardino,CA",KSBD
+Spokane,Washington,WA,208916,3526.2,"Spokane,WA",KSFF
+Gilbert,Arizona,AZ,208453,3067.2,"Gilbert,AZ",KCHD
+Arlington,Virginia,VA,207627,7993.5,"Arlington,VA",KDCA
+Montgomery,Alabama,AL,205764,1289.5,"Montgomery,AL",KMXF
+Boise,Idaho,ID,205671,2591.5,"Boise,ID",KBOI
+Richmond,Virginia,VA,204214,3414.7,"Richmond,VA",KRIC
+Des Moines,Iowa,IA,203433,2515.6,"Des Moines,IA",KDSM
+Modesto,California,CA,201165,5456.5,"Modesto,CA",KMOD
+Fayetteville,North Carolina,NC,200654,1375.2,"Fayetteville,NC",KFAY
+Shreveport,Louisiana,LA,199311,1891.4,"Shreveport,LA",KDTN
+Akron,Ohio,OH,199110,3209.8,"Akron,OH",KAKR
+Tacoma,Washington,WA,198397,3990.2,"Tacoma,WA",KTIW
+Aurora,Illinois,IL,197899,4404,"Aurora,IL",KDPA
+Oxnard,California,CA,197899,7358.4,"Oxnard,CA",KOXR
+Fontana,California,CA,196069,4620.8,"Fontana,CA",KRAL
+Yonkers,New York,NY,195976,10880.3,"Yonkers,NY",KLGA
+Augusta,Georgia,GA,195844,647.5,"Augusta,GA",KDNL
+Mobile,Alabama,AL,195111,1402.6,"Mobile,AL",KBFM
+Little Rock,Arkansas,AR,193524,1623.5,"Little Rock,AR",KLIT
+Moreno Valley,California,CA,193365,3771.2,"Moreno Valley,CA",KRIV
+Glendale,California,CA,191719,6295.5,"Glendale,CA",KBUR
+Amarillo,Texas,TX,190695,1917,"Amarillo,TX",KAMA
+Huntington Beach,California,CA,189992,7102.9,"Huntington Beach,CA",KSNA
+Columbus,Georgia,GA,189885,877.5,"Columbus,GA",KCSG
+Grand Rapids,Michigan,MI,188040,4235.6,"Grand Rapids,MI",KGRR
+Salt Lake City,Utah,UT,186440,1678,"Salt Lake City,UT",KSLC
+Tallahassee,Florida,FL,181376,1809.3,"Tallahassee,FL",KTLH
+Worcester,Massachusetts,MA,181045,4844.5,"Worcester,MA",KORH
+Newport News,Virginia,VA,180719,2630,"Newport News,VA",KPHF
+Huntsville,Alabama,AL,180105,861.5,"Huntsville,AL",KHUA
+Knoxville,Tennessee,TN,178874,1815.6,"Knoxville,TN",KTYS
+Providence,Rhode Island,RI,178042,9676.1,"Providence,RI",KPVD
+Santa Clarita,California,CA,176320,3344.7,"Santa Clarita,CA",K3A6
+Grand Prairie,Texas,TX,175396,2432.5,"Grand Prairie,TX",KGPM
+Brownsville,Texas,TX,175023,1322.6,"Brownsville,TX",KBRO
+Jackson,Mississippi,MS,173514,1562.5,"Jackson,MS",KHKS
+Overland Park,Kansas,KS,173372,2316.5,"Overland Park,KS",KNKA
+Garden Grove,California,CA,170883,9524.6,"Garden Grove,CA",KFUL
+Santa Rosa,California,CA,167815,4063.9,"Santa Rosa,CA",KSTS
+Chattanooga,Tennessee,TN,167674,1222.5,"Chattanooga,TN",KCHA
+Oceanside,California,CA,167086,4052.1,"Oceanside,CA",KOKB
+Fort Lauderdale,Florida,FL,165521,4761.1,"Fort Lauderdale,FL",KFLL
+Rancho Cucamonga,California,CA,165269,4147.2,"Rancho Cucamonga,CA",KONT
+Port St. Lucie,Florida,FL,164603,1444.5,"Port St. Lucie,FL",KSUA
+Ontario,California,CA,163924,3282.4,"Ontario,CA",KONT
+Vancouver,Washington,WA,161791,3482.6,"Vancouver,WA",KVUO
+Tempe,Arizona,AZ,161719,4050.1,"Tempe,AZ",KPHX
+Springfield,Missouri,MO,159498,1951.8,"Springfield,MO",KSGF
+Lancaster,California,CA,156633,1661.3,"Lancaster,CA",KWJF
+Eugene,Oregon,OR,156185,3572.2,"Eugene,OR",KEUG
+Pembroke Pines,Florida,FL,154750,4671.1,"Pembroke Pines,FL",KHWO
+Salem,Oregon,OR,154637,3228.6,"Salem,OR",KSLE
+Cape Coral,Florida,FL,154305,1460.2,"Cape Coral,FL",KFMY
+Peoria,Arizona,AZ,154065,883.4,"Peoria,AZ",KGEU
+Sioux Falls,South Dakota,SD,153888,2109.1,"Sioux Falls,SD",KFSD
+Springfield,Massachusetts,MA,153060,4803.4,"Springfield,MA",KCEF
+Elk Grove,California,CA,153015,3626.8,"Elk Grove,CA",KSAC
+Rockford,Illinois,IL,152871,2502.7,"Rockford,IL",KRFD
+Palmdale,California,CA,152750,1441.6,"Palmdale,CA",KPMD
+Corona,California,CA,152374,3924.6,"Corona,CA",KAJO
+Salinas,California,CA,150441,6490.5,"Salinas,CA",KSNS
+Pomona,California,CA,149058,6494.5,"Pomona,CA",KPOC
+Pasadena,Texas,TX,149043,3485.4,"Pasadena,TX",KHOU
+Joliet,Illinois,IL,147433,2373.6,"Joliet,IL",KJOT
+Paterson,New Jersey,NJ,146199,17346.3,"Paterson,NJ",KCDW
+Kansas City,Kansas,KS,145786,1168.1,"Kansas City,KS",KNKA
+Torrance,California,CA,145438,7102.2,"Torrance,CA",KTOA
+Syracuse,New York,NY,145170,5796.7,"Syracuse,NY",KSYR
+Bridgeport,Connecticut,CT,144229,9029,"Bridgeport,CT",KBDR
+Hayward,California,CA,144186,3181.3,"Hayward,CA",KHWD
+Fort Collins,Colorado,CO,143986,2652.8,"Fort Collins,CO",KFNL
+Escondido,California,CA,143911,3909.3,"Escondido,CA",KRNM
+Lakewood,Colorado,CO,142980,3334.4,"Lakewood,CO",KBJC
+Naperville,Illinois,IL,141853,3658.9,"Naperville,IL",KLOT
+Dayton,Ohio,OH,141527,2543.1,"Dayton,OH",KFFO
+Hollywood,Florida,FL,140768,5143.8,"Hollywood,FL",KFLL
+Sunnyvale,California,CA,140081,6370.9,"Sunnyvale,CA",KNUQ
+Alexandria,Virginia,VA,139966,9314.3,"Alexandria,VA",KDCA
+Mesquite,Texas,TX,139824,3038.3,"Mesquite,TX",KHQZ
+Hampton,Virginia,VA,137436,2673.2,"Hampton,VA",KLFI
+Pasadena,California,CA,137122,5969.6,"Pasadena,CA",KMWS
+Orange,California,CA,136416,5501.3,"Orange,CA",KSNA
+Savannah,Georgia,GA,136286,1321.2,"Savannah,GA",KSVN
+Cary,North Carolina,NC,135234,2488.4,"Cary,NC",KRDU
+Fullerton,California,CA,135161,6046.7,"Fullerton,CA",KFUL
+Warren,Michigan,MI,134056,3899.2,"Warren,MI",KDET
+Clarksville,Tennessee,TN,132929,1361.9,"Clarksville,TN",KCKV
+McKinney,Texas,TX,131117,2107.7,"McKinney,TX",KTKI
+McAllen,Texas,TX,129877,2686.5,"McAllen,TX",KMFE
+New Haven,Connecticut,CT,129779,6948,"New Haven,CT",KHVN
+Sterling Heights,Michigan,MI,129699,3552.9,"Sterling Heights,MI",KVLL
+West Valley City,Utah,UT,129480,3641.5,"West Valley City,UT",KU42
+Columbia,South Carolina,SC,129272,977.8,"Columbia,SC",KCUB
+Killeen,Texas,TX,127921,2387.5,"Killeen,TX",KHLR
+Topeka,Kansas,KS,127473,2118.6,"Topeka,KS",KTOP
+Thousand Oaks,California,CA,126683,2302,"Thousand Oaks,CA",KCMA
+Cedar Rapids,Iowa,IA,126326,1784.3,"Cedar Rapids,IA",KCID
+Olathe,Kansas,KS,125872,2109.8,"Olathe,KS",KOJC
+Elizabeth,New Jersey,NJ,124969,10144.1,"Elizabeth,NJ",KEWR
+Waco,Texas,TX,124805,1402.9,"Waco,TX",KACT
+Hartford,Connecticut,CT,124775,7178.9,"Hartford,CT",KHFD
+Visalia,California,CA,124442,3433.3,"Visalia,CA",KVIS
+Gainesville,Florida,FL,124354,2028.5,"Gainesville,FL",KGNV
+Simi Valley,California,CA,124237,2995.1,"Simi Valley,CA",K3A6
+Stamford,Connecticut,CT,122643,3258.4,"Stamford,CT",KHPN
+Bellevue,Washington,WA,122363,3827.7,"Bellevue,WA",KBFI
+Concord,California,CA,122067,3996.2,"Concord,CA",KCCR
+Miramar,Florida,FL,122041,4134.1,"Miramar,FL",KHWO
+Coral Springs,Florida,FL,121096,5089.8,"Coral Springs,FL",KFXE
+Lafayette,Louisiana,LA,120623,2450.1,"Lafayette,LA",KLFT
+Charleston,South Carolina,SC,120083,1101.9,"Charleston,SC",KJZI
+Carrollton,Texas,TX,119097,3281.3,"Carrollton,TX",KADS
+Roseville,California,CA,118788,3279.5,"Roseville,CA",KMCC
+Thornton,Colorado,CO,118772,3408.8,"Thornton,CO",KEIK
+Beaumont,Texas,TX,118296,1428.7,"Beaumont,TX",KBMT
+Allentown,Pennsylvania,PA,118032,6727.1,"Allentown,PA",KXLL
+Surprise,Arizona,AZ,117517,1111.3,"Surprise,AZ",KLUF
+Evansville,Indiana,IN,117429,2659.6,"Evansville,IN",KEVV
+Abilene,Texas,TX,117063,1096.2,"Abilene,TX",KABI
+Frisco,Texas,TX,116989,1892.9,"Frisco,TX",KADS
+Independence,Missouri,MO,116830,1506.2,"Independence,MO",KMKC
+Santa Clara,California,CA,116468,6327.3,"Santa Clara,CA",KSJC
+Springfield,Illinois,IL,116250,1954.5,"Springfield,IL",KSPI
+Vallejo,California,CA,115942,3780.1,"Vallejo,CA",KAPC
+Victorville,California,CA,115903,1583.9,"Victorville,CA",KVCV
+Athens,Georgia,GA,115452,992.2,"Athens,GA",KAHN
+Peoria,Illinois,IL,115007,2395.6,"Peoria,IL",KPIA
+Ann Arbor,Michigan,MI,113934,4094,"Ann Arbor,MI",KARB
+El Monte,California,CA,113475,11866.9,"El Monte,CA",KEMT
+Denton,Texas,TX,113383,1289.2,"Denton,TX",KDTO
+Berkeley,California,CA,112580,10752.4,"Berkeley,CA",KOAK
+Provo,Utah,UT,112488,2699.3,"Provo,UT",KPVU
+Downey,California,CA,111772,9008,"Downey,CA",KLGB
+Midland,Texas,TX,111147,1542.2,"Midland,TX",KMDD
+Norman,Oklahoma,OK,110925,620.5,"Norman,OK",KOUN
+Waterbury,Connecticut,CT,110366,3869.9,"Waterbury,CT",KOXC
+Costa Mesa,California,CA,109960,7024.6,"Costa Mesa,CA",KSNA
+Inglewood,California,CA,109673,12094.7,"Inglewood,CA",KLAX
+Manchester,New Hampshire,NH,109565,3310.1,"Manchester,NH",KMHT
+Lansing,Michigan,MI,109563,3303.2,"Lansing,MI",KLAN
+Murfreesboro,Tennessee,TN,108755,1965,"Murfreesboro,TN",KMQY
+Columbia,Missouri,MO,108500,1720.1,"Columbia,MO",KCOU
+Elgin,Illinois,IL,108188,2911.1,"Elgin,IL",KDPA
+Clearwater,Florida,FL,107685,4212.8,"Clearwater,FL",KPIE
+Miami Gardens,Florida,FL,107167,5878.4,"Miami Gardens,FL",KOPF
+Rochester,Minnesota,MN,106769,1956,"Rochester,MN",K9MN
+Pueblo,Colorado,CO,106595,1987.2,"Pueblo,CO",KPUB
+Lowell,Massachusetts,MA,106519,7842.1,"Lowell,MA",KLWM
+Wilmington,North Carolina,NC,106476,2067.8,"Wilmington,NC",KILM
+Arvada,Colorado,CO,106433,3028.6,"Arvada,CO",KBJC
+Ventura,California,CA,106433,4915,"Ventura,CA",KOXR
+Westminster,Colorado,CO,106114,3363.3,"Westminster,CO",KBJC
+West Covina,California,CA,106098,6614.3,"West Covina,CA",KEMT
+Gresham,Oregon,OR,105594,4551.3,"Gresham,OR",KTTD
+Fargo,North Dakota,ND,105549,2162,"Fargo,ND",KFAR
+Norwalk,California,CA,105549,10873.5,"Norwalk,CA",KFUL
+Carlsbad,California,CA,105328,2792.2,"Carlsbad,CA",KCRQ
+Fairfield,California,CA,105321,2816.8,"Fairfield,CA",KSUU
+Cambridge,Massachusetts,MA,105162,16469.1,"Cambridge,MA",KBOS
+Wichita Falls,Texas,TX,104553,1449.3,"Wichita Falls,TX",KCWC
+High Point,North Carolina,NC,104371,1939.9,"High Point,NC",KGSO
+Billings,Montana,MT,104170,2399.5,"Billings,MT",KBIL
+Green Bay,Wisconsin,WI,104057,2288.6,"Green Bay,WI",KGRB
+West Jordan,Utah,UT,103712,3195.4,"West Jordan,UT",KU42
+Richmond,California,CA,103701,3448.9,"Richmond,CA",KCCR
+Murrieta,California,CA,103466,3081.4,"Murrieta,CA",KF70
+Burbank,California,CA,103340,5959.3,"Burbank,CA",KBUR
+Palm Bay,Florida,FL,103190,1570.6,"Palm Bay,FL",KMLB
+Everett,Washington,WA,103019,3080,"Everett,WA",KPAE
+Flint,Michigan,MI,102434,3065.4,"Flint,MI",KFNT
+Antioch,California,CA,102372,3611.2,"Antioch,CA",KCCR
+Erie,Pennsylvania,PA,101786,5334.5,"Erie,PA",KERI
+South Bend,Indiana,IN,101168,2440.3,"South Bend,IN",KSBN
+Daly City,California,CA,101123,13195,"Daly City,CA",KSFO
+Centennial,Colorado,CO,100377,3494.8,"Centennial,CO",KAPA
+Temecula,California,CA,100097,3319.8,"Temecula,CA",KF70

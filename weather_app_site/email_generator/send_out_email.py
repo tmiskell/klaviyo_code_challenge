@@ -1,21 +1,20 @@
 import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.image import MIMEImage
-from .global_vars import TITLE
 
-def send_out_email( next_email, next_image ):
-    smtp_server_ip = 'localhost'
-    email = MIMEMultipart()
-    email['Subject'] = next_email.subject()
-    email['From'] = next_email.send_addr()
-    email['To'] = next_email.rcv_addr()
-    email.preamble = TITLE
-    # Use unicode encoding when generating the email body
-    email.attach( MIMEText(next_email.body().encode('utf-8'), "html") )
-    if next_image:
-        email.attach( MIMEImage(next_image) )
-    email_server = smtplib.SMTP( smtp_server_ip )
-    email_server.sendmail( email['From'], email['To'], email.as_string() )
-    email_server.quit()
+def send_out_email( next_email, smtp_server_ip ):
+    """
+        Function to send out the e-mail to the next recipient.
 
-    return email
+        Arguments:
+            next_email:     The next email to be sent out
+            smtp_server_ip: The IP address of the SMTP server.
+            
+        Variables:
+            smtp_server:    The SMTP server
+    """
+    # Initialize variables
+    smtp_server = smtplib.SMTP( smtp_server_ip )
+    # Send the next email
+    smtp_server.sendmail( next_email['From'], next_email['To'], next_email.as_string() )
+    smtp_server.quit()
+
+    return
