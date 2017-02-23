@@ -116,11 +116,7 @@ def retrieve_weather( next_recipient, obs_endpt, html_dir, image_dir, num_days )
         image_file = image_url.split('/')[-1]        
         image_file = os.path.join( image_dir, image_file )        
         urllib.urlretrieve( image_url, image_file )
-        input_file = open( image_file, 'rb' )
-        image = input_file.read()
-        input_file.close()
-        os.remove( image_file )
-    next_weather = Weather( curr_temp_f=curr_temp_f, curr_temp_c=curr_temp_c, condition=condition, image=image,
+    next_weather = Weather( curr_temp_f=curr_temp_f, curr_temp_c=curr_temp_c, condition=condition, image=image_file,
                             avg_temp_f=avg_temp_f, avg_temp_c=avg_temp_c, curr_precip=curr_precip )
 
     return next_weather

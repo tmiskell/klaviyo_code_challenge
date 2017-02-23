@@ -67,10 +67,9 @@ from .save_email import save_email
 from socket import error as socket_error
 from .send_out_email import send_out_email
 from .change_subject import change_subject
-from .create_email import create_email
 from .retrieve_weather import retrieve_weather
 from .create_email_body import create_email_body
-from .global_vars import DJANGO_APP, AUTHOR_ADDRESS, SMTP_SERVER_IP, API_KEY
+from .global_vars import DJANGO_APP, AUTHOR_ADDRESS, API_KEY, AUTHOR_PASS, SMTP_SERVER, MSG_FMT
 from .global_vars import WEATHER_BASE_URL, NUM_DAYS, TITLE, DEGREE_SYMBOL, PRECIP_TYPES
 
 def main( argv ):
@@ -147,28 +146,21 @@ def main( argv ):
         # Personalize e-mail
         (next_subject, result) = change_subject( next_weather, PRECIP_TYPES )
         logger.info( "Personalized email subject based on %s: %s" % (result, next_subject) )
-        next_body = create_email_body( next_recipient, next_weather, DEGREE_SYMBOL )
+        next_body = create_email_body( next_recipient, next_weather, DEGREE_SYMBOL, TITLE )
         logger.info( "Personalized email body: %s" % 
                      (next_body.replace("\t", "").replace("\n", "")) )
-        # Collect email contents and generate e-mail.
-        next_email = create_email( AUTHOR_ADDRESS, next_recipient.address(), next_subject, 
-                                   next_body, next_weather.image(), TITLE )
         # Send out e-mail
         try:
-            send_out_email( next_email, SMTP_SERVER_IP )
-        except socket_error as exc:
+            send_out_email( AUTHOR_ADDRESS, AUTHOR_PASS, SMTP_SERVER, next_recipient.address(), 
+                            next_subject, next_body, next_weather.image(), MSG_FMT )
+        except (socket_error, IOError) as exc:
             logger.error( "%s" % exc )
             status_code = os.EX_IOERR
             continue
+        os.remove( next_weather.image() )
+        logger.info( "Removed %s" % (os.path.basename(next_weather.image())) )
         logger.info( "Sent email to %s from %s" % (next_recipient.address(), AUTHOR_ADDRESS) )
         num_sent += 1
-        # Save e-mail
-        try:
-            email_file = save_email( next_email, email_dir )
-        except IOError as exc:
-            logger.warning( "%s" % exc )
-            status_code = os.EX_IOERR
-        logger.info( "Saved %s" % (os.path.basename(email_file)) )
     logger.info( "Sent %d emails" % (num_sent) )
     return status_code
 
