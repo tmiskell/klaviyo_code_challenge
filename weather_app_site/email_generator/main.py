@@ -41,7 +41,6 @@
             log_format:     Format to use when logging entries.
             archive_dir:    Directory to store archive files from previous runs.
             html_dir:       Directory to store HTML files.
-            email_dir:      Directory to store sent e-mails.
             image_dir:      Directory to store images.
             recipient_list: List of e-mail recipients
             next_recipient: Instance of type Recipient containing details for next e-mail recipient.
@@ -80,7 +79,6 @@ def main( argv ):
     curr_dir = os.path.dirname( os.path.realpath(__file__) )
     archive_dir = os.path.join( curr_dir, "archive" )
     html_dir = os.path.join( archive_dir, "html" )
-    email_dir = os.path.join( archive_dir, "email" )
     image_dir = os.path.join( archive_dir, "images" )
     # Setup directory to store log files
     log_dir = os.path.join( curr_dir, "log" )
@@ -103,10 +101,6 @@ def main( argv ):
     if not os.path.exists( html_dir ):
         logger.info( "Creating directory: %s" % (html_dir) )
         os.makedirs( html_dir )
-    # Setup directory to store previously sent e-mails
-    if not os.path.exists( email_dir ):
-        logger.info( "Creating directory: %s" % (email_dir) )
-        os.makedirs( email_dir )
     # Setup directory to store weather image files
     if not os.path.exists( image_dir ):
         logger.info( "Creating directory: %s" % (image_dir) )
@@ -157,8 +151,9 @@ def main( argv ):
             logger.error( "%s" % exc )
             status_code = os.EX_IOERR
             continue
-        os.remove( next_weather.image() )
-        logger.info( "Removed %s" % (os.path.basename(next_weather.image())) )
+        if os.path.exists( next_weather.image() ):
+            os.remove( next_weather.image() )
+            logger.info( "Removed %s" % (os.path.basename(next_weather.image())) )
         logger.info( "Sent email to %s from %s" % (next_recipient.address(), AUTHOR_ADDRESS) )
         num_sent += 1
     logger.info( "Sent %d emails" % (num_sent) )
