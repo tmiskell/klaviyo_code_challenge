@@ -62,7 +62,6 @@ import django
 import logging
 from urllib2 import HTTPError
 from .classes import Recipient
-from .save_email import save_email
 from socket import error as socket_error
 from .send_out_email import send_out_email
 from .change_subject import change_subject
